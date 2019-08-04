@@ -1,0 +1,19 @@
+language: node_js
+
+node_js: lts/*
+
+before_install: npm i -g yarn
+
+install: yarn --non-interactive
+
+script: node .
+
+deploy:
+    provider: pages
+    local_dir: docs
+    name: ROS Bot
+    skip_cleanup: true
+    github_token: $github_token
+    keep_history: true
+    on:
+        branch: master

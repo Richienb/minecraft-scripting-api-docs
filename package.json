@@ -1,0 +1,13 @@
+{
+    "name": "minecraft-scripting-api-docs",
+    "private": true,
+    "version": "0.0.0",
+    "main": "index.js",
+    "author": "Richie Bendall <richiebendall@gmail.com>",
+    "license": "MIT",
+    "dependencies": {
+        "minecraft-scripting-types-client": "*",
+        "minecraft-scripting-types-server": "*",
+        "typedoc": "^0.15.0"
+    }
+}
