@@ -1,0 +1,2556 @@
+<!doctype html>
+<html class="default no-js">
+<head>
+	<meta charset="utf-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<title>IVanillaServerSystemBase | Minecraft Bedrock Scripting API</title>
+	<meta name="description" content="">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<link rel="stylesheet" href="../assets/css/main.css">
+</head>
+<body>
+<header>
+	<div class="tsd-page-toolbar">
+		<div class="container">
+			<div class="table-wrap">
+				<div class="table-cell" id="tsd-search" data-index="../assets/js/search.js" data-base="..">
+					<div class="field">
+						<label for="tsd-search-field" class="tsd-widget search no-caption">Search</label>
+						<input id="tsd-search-field" type="text" />
+					</div>
+					<ul class="results">
+						<li class="state loading">Preparing search index...</li>
+						<li class="state failure">The search index is not available</li>
+					</ul>
+					<a href="../index.html" class="title">Minecraft Bedrock Scripting API</a>
+				</div>
+				<div class="table-cell" id="tsd-widgets">
+					<div id="tsd-filter">
+						<a href="#" class="tsd-widget options no-caption" data-toggle="options">Options</a>
+						<div class="tsd-filter-group">
+							<div class="tsd-select" id="tsd-filter-visibility">
+								<span class="tsd-select-label">All</span>
+								<ul class="tsd-select-list">
+									<li data-value="public">Public</li>
+									<li data-value="protected">Public/Protected</li>
+									<li data-value="private" class="selected">All</li>
+								</ul>
+							</div>
+							<input type="checkbox" id="tsd-filter-inherited" checked />
+							<label class="tsd-widget" for="tsd-filter-inherited">Inherited</label>
+							<input type="checkbox" id="tsd-filter-externals" checked />
+							<label class="tsd-widget" for="tsd-filter-externals">Externals</label>
+							<input type="checkbox" id="tsd-filter-only-exported" />
+							<label class="tsd-widget" for="tsd-filter-only-exported">Only exported</label>
+						</div>
+					</div>
+					<a href="#" class="tsd-widget menu no-caption" data-toggle="menu">Menu</a>
+				</div>
+			</div>
+		</div>
+	</div>
+	<div class="tsd-page-title">
+		<div class="container">
+			<ul class="tsd-breadcrumb">
+				<li>
+					<a href="../globals.html">Globals</a>
+				</li>
+				<li>
+					<a href="ivanillaserversystembase.html">IVanillaServerSystemBase</a>
+				</li>
+			</ul>
+			<h1>Interface IVanillaServerSystemBase</h1>
+		</div>
+	</div>
+</header>
+<div class="container container-main">
+	<div class="row">
+		<div class="col-8 col-content">
+			<section class="tsd-panel tsd-comment">
+				<div class="tsd-comment tsd-typography">
+					<div class="lead">
+						<p>This interface is used to include the generated methods on the IServerSystem in a way that the generic variants do not
+						take precedence over the specific, generated versions.</p>
+					</div>
+				</div>
+			</section>
+			<section class="tsd-panel tsd-hierarchy">
+				<h3>Hierarchy</h3>
+				<ul class="tsd-hierarchy">
+					<li>
+						<span class="target">IVanillaServerSystemBase</span>
+					</li>
+				</ul>
+			</section>
+			<section class="tsd-panel-group tsd-index-group">
+				<h2>Index</h2>
+				<section class="tsd-panel tsd-index-panel">
+					<div class="tsd-index-content">
+						<section class="tsd-index-section tsd-is-external tsd-is-not-exported">
+							<h3>Methods</h3>
+							<ul class="tsd-index-list">
+								<li class="tsd-kind-method tsd-parent-kind-interface tsd-has-type-parameter tsd-is-external tsd-is-not-exported"><a href="ivanillaserversystembase.html#broadcastevent" class="tsd-kind-icon">broadcast<wbr>Event</a></li>
+								<li class="tsd-kind-method tsd-parent-kind-interface tsd-has-type-parameter tsd-is-external tsd-is-not-exported"><a href="ivanillaserversystembase.html#createcomponent" class="tsd-kind-icon">create<wbr>Component</a></li>
+								<li class="tsd-kind-method tsd-parent-kind-interface tsd-has-type-parameter tsd-is-external tsd-is-not-exported"><a href="ivanillaserversystembase.html#createeventdata" class="tsd-kind-icon">create<wbr>Event<wbr>Data</a></li>
+								<li class="tsd-kind-method tsd-parent-kind-interface tsd-has-type-parameter tsd-is-external tsd-is-not-exported"><a href="ivanillaserversystembase.html#getcomponent" class="tsd-kind-icon">get<wbr>Component</a></li>
+								<li class="tsd-kind-method tsd-parent-kind-interface tsd-has-type-parameter tsd-is-external tsd-is-not-exported"><a href="ivanillaserversystembase.html#listenforevent" class="tsd-kind-icon">listen<wbr>For<wbr>Event</a></li>
+								<li class="tsd-kind-method tsd-parent-kind-interface tsd-has-type-parameter tsd-is-external tsd-is-not-exported"><a href="ivanillaserversystembase.html#registereventdata" class="tsd-kind-icon">register<wbr>Event<wbr>Data</a></li>
+							</ul>
+						</section>
+					</div>
+				</section>
+			</section>
+			<section class="tsd-panel-group tsd-member-group tsd-is-external tsd-is-not-exported">
+				<h2>Methods</h2>
+				<section class="tsd-panel tsd-member tsd-kind-method tsd-parent-kind-interface tsd-has-type-parameter tsd-is-external tsd-is-not-exported">
+					<a name="broadcastevent" class="tsd-anchor"></a>
+					<h3>broadcast<wbr>Event</h3>
+					<ul class="tsd-signatures tsd-kind-method tsd-parent-kind-interface tsd-has-type-parameter tsd-is-external tsd-is-not-exported">
+						<li class="tsd-signature tsd-kind-icon">broadcast<wbr>Event<span class="tsd-signature-symbol">(</span>eventIdentifier<span class="tsd-signature-symbol">: </span><a href="../enums/sendtominecraftserver.html#displaychat" class="tsd-signature-type">DisplayChat</a>, eventData<span class="tsd-signature-symbol">: </span><a href="ieventdata.html" class="tsd-signature-type">IEventData</a><span class="tsd-signature-symbol">&lt;</span><span class="tsd-signature-type">IDisplayChatParameters</span><span class="tsd-signature-symbol">&gt;</span><span class="tsd-signature-symbol">)</span><span class="tsd-signature-symbol">: </span><span class="tsd-signature-type">boolean</span><span class="tsd-signature-symbol"> | </span><span class="tsd-signature-type">null</span></li>
+						<li class="tsd-signature tsd-kind-icon">broadcast<wbr>Event<span class="tsd-signature-symbol">(</span>eventIdentifier<span class="tsd-signature-symbol">: </span><a href="../enums/sendtominecraftserver.html#executecommand" class="tsd-signature-type">ExecuteCommand</a>, eventData<span class="tsd-signature-symbol">: </span><a href="ieventdata.html" class="tsd-signature-type">IEventData</a><span class="tsd-signature-symbol">&lt;</span><a href="iexecutecommandparameters.html" class="tsd-signature-type">IExecuteCommandParameters</a><span class="tsd-signature-symbol">&gt;</span><span class="tsd-signature-symbol">)</span><span class="tsd-signature-symbol">: </span><span class="tsd-signature-type">boolean</span><span class="tsd-signature-symbol"> | </span><span class="tsd-signature-type">null</span></li>
+						<li class="tsd-signature tsd-kind-icon">broadcast<wbr>Event<span class="tsd-signature-symbol">(</span>eventIdentifier<span class="tsd-signature-symbol">: </span><a href="../enums/sendtominecraftserver.html#playsound" class="tsd-signature-type">PlaySound</a>, eventData<span class="tsd-signature-symbol">: </span><a href="ieventdata.html" class="tsd-signature-type">IEventData</a><span class="tsd-signature-symbol">&lt;</span><a href="iplaysoundparameters.html" class="tsd-signature-type">IPlaySoundParameters</a><span class="tsd-signature-symbol">&gt;</span><span class="tsd-signature-symbol">)</span><span class="tsd-signature-symbol">: </span><span class="tsd-signature-type">boolean</span><span class="tsd-signature-symbol"> | </span><span class="tsd-signature-type">null</span></li>
+						<li class="tsd-signature tsd-kind-icon">broadcast<wbr>Event<span class="tsd-signature-symbol">(</span>eventIdentifier<span class="tsd-signature-symbol">: </span><a href="../enums/sendtominecraftserver.html#scriptloggerconfig" class="tsd-signature-type">ScriptLoggerConfig</a>, eventData<span class="tsd-signature-symbol">: </span><a href="ieventdata.html" class="tsd-signature-type">IEventData</a><span class="tsd-signature-symbol">&lt;</span><span class="tsd-signature-type">IScriptLoggerConfigParameters</span><span class="tsd-signature-symbol">&gt;</span><span class="tsd-signature-symbol">)</span><span class="tsd-signature-symbol">: </span><span class="tsd-signature-type">boolean</span><span class="tsd-signature-symbol"> | </span><span class="tsd-signature-type">null</span></li>
+						<li class="tsd-signature tsd-kind-icon">broadcast<wbr>Event<span class="tsd-signature-symbol">(</span>eventIdentifier<span class="tsd-signature-symbol">: </span><a href="../enums/sendtominecraftserver.html#spawnparticleattachedentity" class="tsd-signature-type">SpawnParticleAttachedEntity</a>, eventData<span class="tsd-signature-symbol">: </span><a href="ieventdata.html" class="tsd-signature-type">IEventData</a><span class="tsd-signature-symbol">&lt;</span><span class="tsd-signature-type">ISpawnParticleAttachedEntityParameters</span><span class="tsd-signature-symbol">&gt;</span><span class="tsd-signature-symbol">)</span><span class="tsd-signature-symbol">: </span><span class="tsd-signature-type">boolean</span><span class="tsd-signature-symbol"> | </span><span class="tsd-signature-type">null</span></li>
+						<li class="tsd-signature tsd-kind-icon">broadcast<wbr>Event<span class="tsd-signature-symbol">(</span>eventIdentifier<span class="tsd-signature-symbol">: </span><a href="../enums/sendtominecraftserver.html#spawnparticleinworld" class="tsd-signature-type">SpawnParticleInWorld</a>, eventData<span class="tsd-signature-symbol">: </span><a href="ieventdata.html" class="tsd-signature-type">IEventData</a><span class="tsd-signature-symbol">&lt;</span><span class="tsd-signature-type">ISpawnParticleInWorldParameters</span><span class="tsd-signature-symbol">&gt;</span><span class="tsd-signature-symbol">)</span><span class="tsd-signature-symbol">: </span><span class="tsd-signature-type">boolean</span><span class="tsd-signature-symbol"> | </span><span class="tsd-signature-type">null</span></li>
+						<li class="tsd-signature tsd-kind-icon">broadcast<wbr>Event&lt;TEventDataType&gt;<span class="tsd-signature-symbol">(</span>eventIdentifier<span class="tsd-signature-symbol">: </span><span class="tsd-signature-type">string</span>, eventData<span class="tsd-signature-symbol">: </span><a href="ieventdata.html" class="tsd-signature-type">IEventData</a><span class="tsd-signature-symbol">&lt;</span><span class="tsd-signature-type">TEventDataType</span><span class="tsd-signature-symbol">&gt;</span><span class="tsd-signature-symbol">)</span><span class="tsd-signature-symbol">: </span><span class="tsd-signature-type">boolean</span><span class="tsd-signature-symbol"> | </span><span class="tsd-signature-type">null</span></li>
+					</ul>
+					<ul class="tsd-descriptions">
+						<li class="tsd-description">
+							<aside class="tsd-sources">
+								<ul>
+									<li>Defined in minecraft-scripting-types-server/types/server_system_events.generated.d.ts:43</li>
+								</ul>
+							</aside>
+							<div class="tsd-comment tsd-typography">
+								<div class="lead">
+									<p>This event is used to send a chat message from the server to the players. The event data is the message being sent as a string. Special formatting is supported the same way it would be if a player was sending the message.</p>
+								</div>
+							</div>
+							<h4 class="tsd-parameters-title">Parameters</h4>
+							<ul class="tsd-parameters">
+								<li>
+									<h5>eventIdentifier: <a href="../enums/sendtominecraftserver.html#displaychat" class="tsd-signature-type">DisplayChat</a></h5>
+								</li>
+								<li>
+									<h5>eventData: <a href="ieventdata.html" class="tsd-signature-type">IEventData</a><span class="tsd-signature-symbol">&lt;</span><span class="tsd-signature-type">IDisplayChatParameters</span><span class="tsd-signature-symbol">&gt;</span></h5>
+								</li>
+							</ul>
+							<h4 class="tsd-returns-title">Returns <span class="tsd-signature-type">boolean</span>
+								<span class="tsd-signature-symbol"> | </span>
+								<span class="tsd-signature-type">null</span>
+							</h4>
+						</li>
+						<li class="tsd-description">
+							<aside class="tsd-sources">
+								<ul>
+									<li>Defined in minecraft-scripting-types-server/types/server_system_events.generated.d.ts:47</li>
+								</ul>
+							</aside>
+							<div class="tsd-comment tsd-typography">
+								<div class="lead">
+									<p>This event is used to execute a slash command on the server with the World Owner permission level. The event data contains the slash command as a string. The slash command will be processed and will run after the event is sent.</p>
+								</div>
+							</div>
+							<h4 class="tsd-parameters-title">Parameters</h4>
+							<ul class="tsd-parameters">
+								<li>
+									<h5>eventIdentifier: <a href="../enums/sendtominecraftserver.html#executecommand" class="tsd-signature-type">ExecuteCommand</a></h5>
+								</li>
+								<li>
+									<h5>eventData: <a href="ieventdata.html" class="tsd-signature-type">IEventData</a><span class="tsd-signature-symbol">&lt;</span><a href="iexecutecommandparameters.html" class="tsd-signature-type">IExecuteCommandParameters</a><span class="tsd-signature-symbol">&gt;</span></h5>
+								</li>
+							</ul>
+							<h4 class="tsd-returns-title">Returns <span class="tsd-signature-type">boolean</span>
+								<span class="tsd-signature-symbol"> | </span>
+								<span class="tsd-signature-type">null</span>
+							</h4>
+						</li>
+						<li class="tsd-description">
+							<aside class="tsd-sources">
+								<ul>
+									<li>Defined in minecraft-scripting-types-server/types/server_system_events.generated.d.ts:51</li>
+								</ul>
+							</aside>
+							<div class="tsd-comment tsd-typography">
+								<div class="lead">
+									<p>This event is used to play a sound effect. Currently, sounds can only be played at a fixed position in the world. Global sounds and sounds played by an entity will be supported in a later update.</p>
+								</div>
+							</div>
+							<h4 class="tsd-parameters-title">Parameters</h4>
+							<ul class="tsd-parameters">
+								<li>
+									<h5>eventIdentifier: <a href="../enums/sendtominecraftserver.html#playsound" class="tsd-signature-type">PlaySound</a></h5>
+								</li>
+								<li>
+									<h5>eventData: <a href="ieventdata.html" class="tsd-signature-type">IEventData</a><span class="tsd-signature-symbol">&lt;</span><a href="iplaysoundparameters.html" class="tsd-signature-type">IPlaySoundParameters</a><span class="tsd-signature-symbol">&gt;</span></h5>
+								</li>
+							</ul>
+							<h4 class="tsd-returns-title">Returns <span class="tsd-signature-type">boolean</span>
+								<span class="tsd-signature-symbol"> | </span>
+								<span class="tsd-signature-type">null</span>
+							</h4>
+						</li>
+						<li class="tsd-description">
+							<aside class="tsd-sources">
+								<ul>
+									<li>Defined in minecraft-scripting-types-server/types/server_system_events.generated.d.ts:55</li>
+								</ul>
+							</aside>
+							<div class="tsd-comment tsd-typography">
+								<div class="lead">
+									<p>This event is used to turn various levels of logging on and off for server scripts. Note that turning logging on/off is not limited to the script that broadcasted the event. It will affect ALL server scripts including those in other Behavior Packs that are applied to the world. See the Debugging section for more information on logging.</p>
+								</div>
+							</div>
+							<h4 class="tsd-parameters-title">Parameters</h4>
+							<ul class="tsd-parameters">
+								<li>
+									<h5>eventIdentifier: <a href="../enums/sendtominecraftserver.html#scriptloggerconfig" class="tsd-signature-type">ScriptLoggerConfig</a></h5>
+								</li>
+								<li>
+									<h5>eventData: <a href="ieventdata.html" class="tsd-signature-type">IEventData</a><span class="tsd-signature-symbol">&lt;</span><span class="tsd-signature-type">IScriptLoggerConfigParameters</span><span class="tsd-signature-symbol">&gt;</span></h5>
+								</li>
+							</ul>
+							<h4 class="tsd-returns-title">Returns <span class="tsd-signature-type">boolean</span>
+								<span class="tsd-signature-symbol"> | </span>
+								<span class="tsd-signature-type">null</span>
+							</h4>
+						</li>
+						<li class="tsd-description">
+							<aside class="tsd-sources">
+								<ul>
+									<li>Defined in minecraft-scripting-types-server/types/server_system_events.generated.d.ts:59</li>
+								</ul>
+							</aside>
+							<div class="tsd-comment tsd-typography">
+								<div class="lead">
+									<p>This event is used to create a particle effect that will follow an entity around. This particle effect is visible to all players. Any effect defined in a JSON file (both in your resource pack and in Minecraft) can be used here. MoLang variables defined in the JSON of the effect can then be used to control that effect by changing them in the entity to which it is attached.</p>
+								</div>
+							</div>
+							<h4 class="tsd-parameters-title">Parameters</h4>
+							<ul class="tsd-parameters">
+								<li>
+									<h5>eventIdentifier: <a href="../enums/sendtominecraftserver.html#spawnparticleattachedentity" class="tsd-signature-type">SpawnParticleAttachedEntity</a></h5>
+								</li>
+								<li>
+									<h5>eventData: <a href="ieventdata.html" class="tsd-signature-type">IEventData</a><span class="tsd-signature-symbol">&lt;</span><span class="tsd-signature-type">ISpawnParticleAttachedEntityParameters</span><span class="tsd-signature-symbol">&gt;</span></h5>
+								</li>
+							</ul>
+							<h4 class="tsd-returns-title">Returns <span class="tsd-signature-type">boolean</span>
+								<span class="tsd-signature-symbol"> | </span>
+								<span class="tsd-signature-type">null</span>
+							</h4>
+						</li>
+						<li class="tsd-description">
+							<aside class="tsd-sources">
+								<ul>
+									<li>Defined in minecraft-scripting-types-server/types/server_system_events.generated.d.ts:63</li>
+								</ul>
+							</aside>
+							<div class="tsd-comment tsd-typography">
+								<div class="lead">
+									<p>This event is used to create a static particle effect in the world. This particle effect is visible to all players. Any effect defined in a JSON file (both in your resource pack and in Minecraft) can be used here. Once the effect is spawned you won&#39;t be able to control it further.</p>
+								</div>
+							</div>
+							<h4 class="tsd-parameters-title">Parameters</h4>
+							<ul class="tsd-parameters">
+								<li>
+									<h5>eventIdentifier: <a href="../enums/sendtominecraftserver.html#spawnparticleinworld" class="tsd-signature-type">SpawnParticleInWorld</a></h5>
+								</li>
+								<li>
+									<h5>eventData: <a href="ieventdata.html" class="tsd-signature-type">IEventData</a><span class="tsd-signature-symbol">&lt;</span><span class="tsd-signature-type">ISpawnParticleInWorldParameters</span><span class="tsd-signature-symbol">&gt;</span></h5>
+								</li>
+							</ul>
+							<h4 class="tsd-returns-title">Returns <span class="tsd-signature-type">boolean</span>
+								<span class="tsd-signature-symbol"> | </span>
+								<span class="tsd-signature-type">null</span>
+							</h4>
+						</li>
+						<li class="tsd-description">
+							<aside class="tsd-sources">
+								<ul>
+									<li>Defined in minecraft-scripting-types-server/types/server_system_events.generated.d.ts:170</li>
+								</ul>
+							</aside>
+							<div class="tsd-comment tsd-typography">
+							</div>
+							<h4 class="tsd-type-parameters-title">Type parameters</h4>
+							<ul class="tsd-type-parameters">
+								<li>
+									<h4>TEventDataType</h4>
+								</li>
+							</ul>
+							<h4 class="tsd-parameters-title">Parameters</h4>
+							<ul class="tsd-parameters">
+								<li>
+									<h5>eventIdentifier: <span class="tsd-signature-type">string</span></h5>
+									<div class="tsd-comment tsd-typography">
+										<p>Allows you to trigger an event with the desired data from script.
+										Anything that signed up to listen for the event will be notified and the given data delivered to them.</p>
+									</div>
+								</li>
+								<li>
+									<h5>eventData: <a href="ieventdata.html" class="tsd-signature-type">IEventData</a><span class="tsd-signature-symbol">&lt;</span><span class="tsd-signature-type">TEventDataType</span><span class="tsd-signature-symbol">&gt;</span></h5>
+									<div class="tsd-comment tsd-typography">
+										<p>The data for the event. You can create a new JavaScript Object with the parameters you want to pass in to the listener and the engine will take care of delivering the data to them</p>
+									</div>
+								</li>
+							</ul>
+							<h4 class="tsd-returns-title">Returns <span class="tsd-signature-type">boolean</span>
+								<span class="tsd-signature-symbol"> | </span>
+								<span class="tsd-signature-type">null</span>
+							</h4>
+						</li>
+					</ul>
+				</section>
+				<section class="tsd-panel tsd-member tsd-kind-method tsd-parent-kind-interface tsd-has-type-parameter tsd-is-external tsd-is-not-exported">
+					<a name="createcomponent" class="tsd-anchor"></a>
+					<h3>create<wbr>Component</h3>
+					<ul class="tsd-signatures tsd-kind-method tsd-parent-kind-interface tsd-has-type-parameter tsd-is-external tsd-is-not-exported">
+						<li class="tsd-signature tsd-kind-icon">create<wbr>Component<span class="tsd-signature-symbol">(</span>entity<span class="tsd-signature-symbol">: </span><a href="ientity.html" class="tsd-signature-type">IEntity</a>, componentName<span class="tsd-signature-symbol">: </span><a href="../enums/minecraftcomponent.html#armorcontainer" class="tsd-signature-type">ArmorContainer</a><span class="tsd-signature-symbol">)</span><span class="tsd-signature-symbol">: </span><a href="icomponent.html" class="tsd-signature-type">IComponent</a><span class="tsd-signature-symbol">&lt;</span><a href="../globals.html#iarmorcontainercomponent" class="tsd-signature-type">IArmorContainerComponent</a><span class="tsd-signature-symbol">&gt;</span><span class="tsd-signature-symbol"> | </span><span class="tsd-signature-type">null</span></li>
+						<li class="tsd-signature tsd-kind-icon">create<wbr>Component<span class="tsd-signature-symbol">(</span>entity<span class="tsd-signature-symbol">: </span><a href="ientity.html" class="tsd-signature-type">IEntity</a>, componentName<span class="tsd-signature-symbol">: </span><a href="../enums/minecraftcomponent.html#attack" class="tsd-signature-type">Attack</a><span class="tsd-signature-symbol">)</span><span class="tsd-signature-symbol">: </span><a href="icomponent.html" class="tsd-signature-type">IComponent</a><span class="tsd-signature-symbol">&lt;</span><a href="iattackcomponent.html" class="tsd-signature-type">IAttackComponent</a><span class="tsd-signature-symbol">&gt;</span><span class="tsd-signature-symbol"> | </span><span class="tsd-signature-type">null</span></li>
+						<li class="tsd-signature tsd-kind-icon">create<wbr>Component<span class="tsd-signature-symbol">(</span>entity<span class="tsd-signature-symbol">: </span><a href="ientity.html" class="tsd-signature-type">IEntity</a>, componentName<span class="tsd-signature-symbol">: </span><a href="../enums/minecraftcomponent.html#collisionbox" class="tsd-signature-type">CollisionBox</a><span class="tsd-signature-symbol">)</span><span class="tsd-signature-symbol">: </span><a href="icomponent.html" class="tsd-signature-type">IComponent</a><span class="tsd-signature-symbol">&lt;</span><a href="icollisionboxcomponent.html" class="tsd-signature-type">ICollisionBoxComponent</a><span class="tsd-signature-symbol">&gt;</span><span class="tsd-signature-symbol"> | </span><span class="tsd-signature-type">null</span></li>
+						<li class="tsd-signature tsd-kind-icon">create<wbr>Component<span class="tsd-signature-symbol">(</span>entity<span class="tsd-signature-symbol">: </span><a href="ientity.html" class="tsd-signature-type">IEntity</a>, componentName<span class="tsd-signature-symbol">: </span><a href="../enums/minecraftcomponent.html#damagesensor" class="tsd-signature-type">DamageSensor</a><span class="tsd-signature-symbol">)</span><span class="tsd-signature-symbol">: </span><a href="icomponent.html" class="tsd-signature-type">IComponent</a><span class="tsd-signature-symbol">&lt;</span><a href="idamagesensorcomponent.html" class="tsd-signature-type">IDamageSensorComponent</a><span class="tsd-signature-symbol">&gt;</span><span class="tsd-signature-symbol"> | </span><span class="tsd-signature-type">null</span></li>
+						<li class="tsd-signature tsd-kind-icon">create<wbr>Component<span class="tsd-signature-symbol">(</span>entity<span class="tsd-signature-symbol">: </span><a href="ientity.html" class="tsd-signature-type">IEntity</a>, componentName<span class="tsd-signature-symbol">: </span><a href="../enums/minecraftcomponent.html#equipment" class="tsd-signature-type">Equipment</a><span class="tsd-signature-symbol">)</span><span class="tsd-signature-symbol">: </span><a href="icomponent.html" class="tsd-signature-type">IComponent</a><span class="tsd-signature-symbol">&lt;</span><a href="iequipmentcomponent.html" class="tsd-signature-type">IEquipmentComponent</a><span class="tsd-signature-symbol">&gt;</span><span class="tsd-signature-symbol"> | </span><span class="tsd-signature-type">null</span></li>
+						<li class="tsd-signature tsd-kind-icon">create<wbr>Component<span class="tsd-signature-symbol">(</span>entity<span class="tsd-signature-symbol">: </span><a href="ientity.html" class="tsd-signature-type">IEntity</a>, componentName<span class="tsd-signature-symbol">: </span><a href="../enums/minecraftcomponent.html#equippable" class="tsd-signature-type">Equippable</a><span class="tsd-signature-symbol">)</span><span class="tsd-signature-symbol">: </span><a href="icomponent.html" class="tsd-signature-type">IComponent</a><span class="tsd-signature-symbol">&lt;</span><a href="iequippablecomponent.html" class="tsd-signature-type">IEquippableComponent</a><span class="tsd-signature-symbol">&gt;</span><span class="tsd-signature-symbol"> | </span><span class="tsd-signature-type">null</span></li>
+						<li class="tsd-signature tsd-kind-icon">create<wbr>Component<span class="tsd-signature-symbol">(</span>entity<span class="tsd-signature-symbol">: </span><a href="ientity.html" class="tsd-signature-type">IEntity</a>, componentName<span class="tsd-signature-symbol">: </span><a href="../enums/minecraftcomponent.html#explode" class="tsd-signature-type">Explode</a><span class="tsd-signature-symbol">)</span><span class="tsd-signature-symbol">: </span><a href="icomponent.html" class="tsd-signature-type">IComponent</a><span class="tsd-signature-symbol">&lt;</span><a href="iexplodecomponent.html" class="tsd-signature-type">IExplodeComponent</a><span class="tsd-signature-symbol">&gt;</span><span class="tsd-signature-symbol"> | </span><span class="tsd-signature-type">null</span></li>
+						<li class="tsd-signature tsd-kind-icon">create<wbr>Component<span class="tsd-signature-symbol">(</span>entity<span class="tsd-signature-symbol">: </span><a href="ientity.html" class="tsd-signature-type">IEntity</a>, componentName<span class="tsd-signature-symbol">: </span><a href="../enums/minecraftcomponent.html#handcontainer" class="tsd-signature-type">HandContainer</a><span class="tsd-signature-symbol">)</span><span class="tsd-signature-symbol">: </span><a href="icomponent.html" class="tsd-signature-type">IComponent</a><span class="tsd-signature-symbol">&lt;</span><a href="../globals.html#ihandcontainercomponent" class="tsd-signature-type">IHandContainerComponent</a><span class="tsd-signature-symbol">&gt;</span><span class="tsd-signature-symbol"> | </span><span class="tsd-signature-type">null</span></li>
+						<li class="tsd-signature tsd-kind-icon">create<wbr>Component<span class="tsd-signature-symbol">(</span>entity<span class="tsd-signature-symbol">: </span><a href="ientity.html" class="tsd-signature-type">IEntity</a>, componentName<span class="tsd-signature-symbol">: </span><a href="../enums/minecraftcomponent.html#healable" class="tsd-signature-type">Healable</a><span class="tsd-signature-symbol">)</span><span class="tsd-signature-symbol">: </span><a href="icomponent.html" class="tsd-signature-type">IComponent</a><span class="tsd-signature-symbol">&lt;</span><a href="ihealablecomponent.html" class="tsd-signature-type">IHealableComponent</a><span class="tsd-signature-symbol">&gt;</span><span class="tsd-signature-symbol"> | </span><span class="tsd-signature-type">null</span></li>
+						<li class="tsd-signature tsd-kind-icon">create<wbr>Component<span class="tsd-signature-symbol">(</span>entity<span class="tsd-signature-symbol">: </span><a href="ientity.html" class="tsd-signature-type">IEntity</a>, componentName<span class="tsd-signature-symbol">: </span><a href="../enums/minecraftcomponent.html#health" class="tsd-signature-type">Health</a><span class="tsd-signature-symbol">)</span><span class="tsd-signature-symbol">: </span><a href="icomponent.html" class="tsd-signature-type">IComponent</a><span class="tsd-signature-symbol">&lt;</span><a href="ihealthcomponent.html" class="tsd-signature-type">IHealthComponent</a><span class="tsd-signature-symbol">&gt;</span><span class="tsd-signature-symbol"> | </span><span class="tsd-signature-type">null</span></li>
+						<li class="tsd-signature tsd-kind-icon">create<wbr>Component<span class="tsd-signature-symbol">(</span>entity<span class="tsd-signature-symbol">: </span><a href="ientity.html" class="tsd-signature-type">IEntity</a>, componentName<span class="tsd-signature-symbol">: </span><a href="../enums/minecraftcomponent.html#hotbarcontainer" class="tsd-signature-type">HotbarContainer</a><span class="tsd-signature-symbol">)</span><span class="tsd-signature-symbol">: </span><a href="icomponent.html" class="tsd-signature-type">IComponent</a><span class="tsd-signature-symbol">&lt;</span><a href="../globals.html#ihotbarcontainercomponent" class="tsd-signature-type">IHotbarContainerComponent</a><span class="tsd-signature-symbol">&gt;</span><span class="tsd-signature-symbol"> | </span><span class="tsd-signature-type">null</span></li>
+						<li class="tsd-signature tsd-kind-icon">create<wbr>Component<span class="tsd-signature-symbol">(</span>entity<span class="tsd-signature-symbol">: </span><a href="ientity.html" class="tsd-signature-type">IEntity</a>, componentName<span class="tsd-signature-symbol">: </span><a href="../enums/minecraftcomponent.html#interact" class="tsd-signature-type">Interact</a><span class="tsd-signature-symbol">)</span><span class="tsd-signature-symbol">: </span><a href="icomponent.html" class="tsd-signature-type">IComponent</a><span class="tsd-signature-symbol">&lt;</span><a href="iinteractcomponent.html" class="tsd-signature-type">IInteractComponent</a><span class="tsd-signature-symbol">&gt;</span><span class="tsd-signature-symbol"> | </span><span class="tsd-signature-type">null</span></li>
+						<li class="tsd-signature tsd-kind-icon">create<wbr>Component<span class="tsd-signature-symbol">(</span>entity<span class="tsd-signature-symbol">: </span><a href="ientity.html" class="tsd-signature-type">IEntity</a>, componentName<span class="tsd-signature-symbol">: </span><a href="../enums/minecraftcomponent.html#inventory" class="tsd-signature-type">Inventory</a><span class="tsd-signature-symbol">)</span><span class="tsd-signature-symbol">: </span><a href="icomponent.html" class="tsd-signature-type">IComponent</a><span class="tsd-signature-symbol">&lt;</span><a href="iinventorycomponent.html" class="tsd-signature-type">IInventoryComponent</a><span class="tsd-signature-symbol">&gt;</span><span class="tsd-signature-symbol"> | </span><span class="tsd-signature-type">null</span></li>
+						<li class="tsd-signature tsd-kind-icon">create<wbr>Component<span class="tsd-signature-symbol">(</span>entity<span class="tsd-signature-symbol">: </span><a href="ientity.html" class="tsd-signature-type">IEntity</a>, componentName<span class="tsd-signature-symbol">: </span><a href="../enums/minecraftcomponent.html#inventorycontainer" class="tsd-signature-type">InventoryContainer</a><span class="tsd-signature-symbol">)</span><span class="tsd-signature-symbol">: </span><a href="icomponent.html" class="tsd-signature-type">IComponent</a><span class="tsd-signature-symbol">&lt;</span><a href="../globals.html#iinventorycontainercomponent" class="tsd-signature-type">IInventoryContainerComponent</a><span class="tsd-signature-symbol">&gt;</span><span class="tsd-signature-symbol"> | </span><span class="tsd-signature-type">null</span></li>
+						<li class="tsd-signature tsd-kind-icon">create<wbr>Component<span class="tsd-signature-symbol">(</span>entity<span class="tsd-signature-symbol">: </span><a href="ientity.html" class="tsd-signature-type">IEntity</a>, componentName<span class="tsd-signature-symbol">: </span><a href="../enums/minecraftcomponent.html#lookat" class="tsd-signature-type">LookAt</a><span class="tsd-signature-symbol">)</span><span class="tsd-signature-symbol">: </span><a href="icomponent.html" class="tsd-signature-type">IComponent</a><span class="tsd-signature-symbol">&lt;</span><a href="ilookatcomponent.html" class="tsd-signature-type">ILookAtComponent</a><span class="tsd-signature-symbol">&gt;</span><span class="tsd-signature-symbol"> | </span><span class="tsd-signature-type">null</span></li>
+						<li class="tsd-signature tsd-kind-icon">create<wbr>Component<span class="tsd-signature-symbol">(</span>entity<span class="tsd-signature-symbol">: </span><a href="ientity.html" class="tsd-signature-type">IEntity</a>, componentName<span class="tsd-signature-symbol">: </span><a href="../enums/minecraftcomponent.html#nameable" class="tsd-signature-type">Nameable</a><span class="tsd-signature-symbol">)</span><span class="tsd-signature-symbol">: </span><a href="icomponent.html" class="tsd-signature-type">IComponent</a><span class="tsd-signature-symbol">&lt;</span><a href="inameablecomponent.html" class="tsd-signature-type">INameableComponent</a><span class="tsd-signature-symbol">&gt;</span><span class="tsd-signature-symbol"> | </span><span class="tsd-signature-type">null</span></li>
+						<li class="tsd-signature tsd-kind-icon">create<wbr>Component<span class="tsd-signature-symbol">(</span>entity<span class="tsd-signature-symbol">: </span><a href="ientity.html" class="tsd-signature-type">IEntity</a>, componentName<span class="tsd-signature-symbol">: </span><a href="../enums/minecraftcomponent.html#position" class="tsd-signature-type">Position</a><span class="tsd-signature-symbol">)</span><span class="tsd-signature-symbol">: </span><a href="icomponent.html" class="tsd-signature-type">IComponent</a><span class="tsd-signature-symbol">&lt;</span><a href="ipositioncomponent.html" class="tsd-signature-type">IPositionComponent</a><span class="tsd-signature-symbol">&gt;</span><span class="tsd-signature-symbol"> | </span><span class="tsd-signature-type">null</span></li>
+						<li class="tsd-signature tsd-kind-icon">create<wbr>Component<span class="tsd-signature-symbol">(</span>entity<span class="tsd-signature-symbol">: </span><a href="ientity.html" class="tsd-signature-type">IEntity</a>, componentName<span class="tsd-signature-symbol">: </span><a href="../enums/minecraftcomponent.html#rotation" class="tsd-signature-type">Rotation</a><span class="tsd-signature-symbol">)</span><span class="tsd-signature-symbol">: </span><a href="icomponent.html" class="tsd-signature-type">IComponent</a><span class="tsd-signature-symbol">&lt;</span><a href="irotationcomponent.html" class="tsd-signature-type">IRotationComponent</a><span class="tsd-signature-symbol">&gt;</span><span class="tsd-signature-symbol"> | </span><span class="tsd-signature-type">null</span></li>
+						<li class="tsd-signature tsd-kind-icon">create<wbr>Component<span class="tsd-signature-symbol">(</span>entity<span class="tsd-signature-symbol">: </span><a href="ientity.html" class="tsd-signature-type">IEntity</a>, componentName<span class="tsd-signature-symbol">: </span><a href="../enums/minecraftcomponent.html#shooter" class="tsd-signature-type">Shooter</a><span class="tsd-signature-symbol">)</span><span class="tsd-signature-symbol">: </span><a href="icomponent.html" class="tsd-signature-type">IComponent</a><span class="tsd-signature-symbol">&lt;</span><a href="ishootercomponent.html" class="tsd-signature-type">IShooterComponent</a><span class="tsd-signature-symbol">&gt;</span><span class="tsd-signature-symbol"> | </span><span class="tsd-signature-type">null</span></li>
+						<li class="tsd-signature tsd-kind-icon">create<wbr>Component<span class="tsd-signature-symbol">(</span>entity<span class="tsd-signature-symbol">: </span><a href="ientity.html" class="tsd-signature-type">IEntity</a>, componentName<span class="tsd-signature-symbol">: </span><a href="../enums/minecraftcomponent.html#spawnentity" class="tsd-signature-type">SpawnEntity</a><span class="tsd-signature-symbol">)</span><span class="tsd-signature-symbol">: </span><a href="icomponent.html" class="tsd-signature-type">IComponent</a><span class="tsd-signature-symbol">&lt;</span><a href="ispawnentitycomponent.html" class="tsd-signature-type">ISpawnEntityComponent</a><span class="tsd-signature-symbol">&gt;</span><span class="tsd-signature-symbol"> | </span><span class="tsd-signature-type">null</span></li>
+						<li class="tsd-signature tsd-kind-icon">create<wbr>Component<span class="tsd-signature-symbol">(</span>entity<span class="tsd-signature-symbol">: </span><a href="ientity.html" class="tsd-signature-type">IEntity</a>, componentName<span class="tsd-signature-symbol">: </span><a href="../enums/minecraftcomponent.html#teleport" class="tsd-signature-type">Teleport</a><span class="tsd-signature-symbol">)</span><span class="tsd-signature-symbol">: </span><a href="icomponent.html" class="tsd-signature-type">IComponent</a><span class="tsd-signature-symbol">&lt;</span><a href="iteleportcomponent.html" class="tsd-signature-type">ITeleportComponent</a><span class="tsd-signature-symbol">&gt;</span><span class="tsd-signature-symbol"> | </span><span class="tsd-signature-type">null</span></li>
+						<li class="tsd-signature tsd-kind-icon">create<wbr>Component<span class="tsd-signature-symbol">(</span>entity<span class="tsd-signature-symbol">: </span><a href="ientity.html" class="tsd-signature-type">IEntity</a>, componentName<span class="tsd-signature-symbol">: </span><a href="../enums/minecraftcomponent.html#tickworld" class="tsd-signature-type">TickWorld</a><span class="tsd-signature-symbol">)</span><span class="tsd-signature-symbol">: </span><a href="icomponent.html" class="tsd-signature-type">IComponent</a><span class="tsd-signature-symbol">&lt;</span><a href="itickworldcomponent.html" class="tsd-signature-type">ITickWorldComponent</a><span class="tsd-signature-symbol">&gt;</span><span class="tsd-signature-symbol"> | </span><span class="tsd-signature-type">null</span></li>
+						<li class="tsd-signature tsd-kind-icon">create<wbr>Component&lt;TComponent&gt;<span class="tsd-signature-symbol">(</span>entity<span class="tsd-signature-symbol">: </span><a href="ientity.html" class="tsd-signature-type">IEntity</a>, componentName<span class="tsd-signature-symbol">: </span><span class="tsd-signature-type">string</span><span class="tsd-signature-symbol">)</span><span class="tsd-signature-symbol">: </span><a href="icomponent.html" class="tsd-signature-type">IComponent</a><span class="tsd-signature-symbol">&lt;</span><span class="tsd-signature-type">TComponent</span><span class="tsd-signature-symbol">&gt;</span><span class="tsd-signature-symbol"> | </span><span class="tsd-signature-type">null</span></li>
+					</ul>
+					<ul class="tsd-descriptions">
+						<li class="tsd-description">
+							<aside class="tsd-sources">
+								<ul>
+									<li>Defined in minecraft-scripting-types-server/types/server_system_components.generated.d.ts:10</li>
+								</ul>
+							</aside>
+							<h4 class="tsd-parameters-title">Parameters</h4>
+							<ul class="tsd-parameters">
+								<li>
+									<h5>entity: <a href="ientity.html" class="tsd-signature-type">IEntity</a></h5>
+								</li>
+								<li>
+									<h5>componentName: <a href="../enums/minecraftcomponent.html#armorcontainer" class="tsd-signature-type">ArmorContainer</a></h5>
+								</li>
+							</ul>
+							<h4 class="tsd-returns-title">Returns <a href="icomponent.html" class="tsd-signature-type">IComponent</a><span class="tsd-signature-symbol">&lt;</span><a href="../globals.html#iarmorcontainercomponent" class="tsd-signature-type">IArmorContainerComponent</a><span class="tsd-signature-symbol">&gt;</span>
+								<span class="tsd-signature-symbol"> | </span>
+								<span class="tsd-signature-type">null</span>
+							</h4>
+						</li>
+						<li class="tsd-description">
+							<aside class="tsd-sources">
+								<ul>
+									<li>Defined in minecraft-scripting-types-server/types/server_system_components.generated.d.ts:11</li>
+								</ul>
+							</aside>
+							<h4 class="tsd-parameters-title">Parameters</h4>
+							<ul class="tsd-parameters">
+								<li>
+									<h5>entity: <a href="ientity.html" class="tsd-signature-type">IEntity</a></h5>
+								</li>
+								<li>
+									<h5>componentName: <a href="../enums/minecraftcomponent.html#attack" class="tsd-signature-type">Attack</a></h5>
+								</li>
+							</ul>
+							<h4 class="tsd-returns-title">Returns <a href="icomponent.html" class="tsd-signature-type">IComponent</a><span class="tsd-signature-symbol">&lt;</span><a href="iattackcomponent.html" class="tsd-signature-type">IAttackComponent</a><span class="tsd-signature-symbol">&gt;</span>
+								<span class="tsd-signature-symbol"> | </span>
+								<span class="tsd-signature-type">null</span>
+							</h4>
+						</li>
+						<li class="tsd-description">
+							<aside class="tsd-sources">
+								<ul>
+									<li>Defined in minecraft-scripting-types-server/types/server_system_components.generated.d.ts:12</li>
+								</ul>
+							</aside>
+							<h4 class="tsd-parameters-title">Parameters</h4>
+							<ul class="tsd-parameters">
+								<li>
+									<h5>entity: <a href="ientity.html" class="tsd-signature-type">IEntity</a></h5>
+								</li>
+								<li>
+									<h5>componentName: <a href="../enums/minecraftcomponent.html#collisionbox" class="tsd-signature-type">CollisionBox</a></h5>
+								</li>
+							</ul>
+							<h4 class="tsd-returns-title">Returns <a href="icomponent.html" class="tsd-signature-type">IComponent</a><span class="tsd-signature-symbol">&lt;</span><a href="icollisionboxcomponent.html" class="tsd-signature-type">ICollisionBoxComponent</a><span class="tsd-signature-symbol">&gt;</span>
+								<span class="tsd-signature-symbol"> | </span>
+								<span class="tsd-signature-type">null</span>
+							</h4>
+						</li>
+						<li class="tsd-description">
+							<aside class="tsd-sources">
+								<ul>
+									<li>Defined in minecraft-scripting-types-server/types/server_system_components.generated.d.ts:13</li>
+								</ul>
+							</aside>
+							<h4 class="tsd-parameters-title">Parameters</h4>
+							<ul class="tsd-parameters">
+								<li>
+									<h5>entity: <a href="ientity.html" class="tsd-signature-type">IEntity</a></h5>
+								</li>
+								<li>
+									<h5>componentName: <a href="../enums/minecraftcomponent.html#damagesensor" class="tsd-signature-type">DamageSensor</a></h5>
+								</li>
+							</ul>
+							<h4 class="tsd-returns-title">Returns <a href="icomponent.html" class="tsd-signature-type">IComponent</a><span class="tsd-signature-symbol">&lt;</span><a href="idamagesensorcomponent.html" class="tsd-signature-type">IDamageSensorComponent</a><span class="tsd-signature-symbol">&gt;</span>
+								<span class="tsd-signature-symbol"> | </span>
+								<span class="tsd-signature-type">null</span>
+							</h4>
+						</li>
+						<li class="tsd-description">
+							<aside class="tsd-sources">
+								<ul>
+									<li>Defined in minecraft-scripting-types-server/types/server_system_components.generated.d.ts:14</li>
+								</ul>
+							</aside>
+							<h4 class="tsd-parameters-title">Parameters</h4>
+							<ul class="tsd-parameters">
+								<li>
+									<h5>entity: <a href="ientity.html" class="tsd-signature-type">IEntity</a></h5>
+								</li>
+								<li>
+									<h5>componentName: <a href="../enums/minecraftcomponent.html#equipment" class="tsd-signature-type">Equipment</a></h5>
+								</li>
+							</ul>
+							<h4 class="tsd-returns-title">Returns <a href="icomponent.html" class="tsd-signature-type">IComponent</a><span class="tsd-signature-symbol">&lt;</span><a href="iequipmentcomponent.html" class="tsd-signature-type">IEquipmentComponent</a><span class="tsd-signature-symbol">&gt;</span>
+								<span class="tsd-signature-symbol"> | </span>
+								<span class="tsd-signature-type">null</span>
+							</h4>
+						</li>
+						<li class="tsd-description">
+							<aside class="tsd-sources">
+								<ul>
+									<li>Defined in minecraft-scripting-types-server/types/server_system_components.generated.d.ts:15</li>
+								</ul>
+							</aside>
+							<h4 class="tsd-parameters-title">Parameters</h4>
+							<ul class="tsd-parameters">
+								<li>
+									<h5>entity: <a href="ientity.html" class="tsd-signature-type">IEntity</a></h5>
+								</li>
+								<li>
+									<h5>componentName: <a href="../enums/minecraftcomponent.html#equippable" class="tsd-signature-type">Equippable</a></h5>
+								</li>
+							</ul>
+							<h4 class="tsd-returns-title">Returns <a href="icomponent.html" class="tsd-signature-type">IComponent</a><span class="tsd-signature-symbol">&lt;</span><a href="iequippablecomponent.html" class="tsd-signature-type">IEquippableComponent</a><span class="tsd-signature-symbol">&gt;</span>
+								<span class="tsd-signature-symbol"> | </span>
+								<span class="tsd-signature-type">null</span>
+							</h4>
+						</li>
+						<li class="tsd-description">
+							<aside class="tsd-sources">
+								<ul>
+									<li>Defined in minecraft-scripting-types-server/types/server_system_components.generated.d.ts:16</li>
+								</ul>
+							</aside>
+							<h4 class="tsd-parameters-title">Parameters</h4>
+							<ul class="tsd-parameters">
+								<li>
+									<h5>entity: <a href="ientity.html" class="tsd-signature-type">IEntity</a></h5>
+								</li>
+								<li>
+									<h5>componentName: <a href="../enums/minecraftcomponent.html#explode" class="tsd-signature-type">Explode</a></h5>
+								</li>
+							</ul>
+							<h4 class="tsd-returns-title">Returns <a href="icomponent.html" class="tsd-signature-type">IComponent</a><span class="tsd-signature-symbol">&lt;</span><a href="iexplodecomponent.html" class="tsd-signature-type">IExplodeComponent</a><span class="tsd-signature-symbol">&gt;</span>
+								<span class="tsd-signature-symbol"> | </span>
+								<span class="tsd-signature-type">null</span>
+							</h4>
+						</li>
+						<li class="tsd-description">
+							<aside class="tsd-sources">
+								<ul>
+									<li>Defined in minecraft-scripting-types-server/types/server_system_components.generated.d.ts:17</li>
+								</ul>
+							</aside>
+							<h4 class="tsd-parameters-title">Parameters</h4>
+							<ul class="tsd-parameters">
+								<li>
+									<h5>entity: <a href="ientity.html" class="tsd-signature-type">IEntity</a></h5>
+								</li>
+								<li>
+									<h5>componentName: <a href="../enums/minecraftcomponent.html#handcontainer" class="tsd-signature-type">HandContainer</a></h5>
+								</li>
+							</ul>
+							<h4 class="tsd-returns-title">Returns <a href="icomponent.html" class="tsd-signature-type">IComponent</a><span class="tsd-signature-symbol">&lt;</span><a href="../globals.html#ihandcontainercomponent" class="tsd-signature-type">IHandContainerComponent</a><span class="tsd-signature-symbol">&gt;</span>
+								<span class="tsd-signature-symbol"> | </span>
+								<span class="tsd-signature-type">null</span>
+							</h4>
+						</li>
+						<li class="tsd-description">
+							<aside class="tsd-sources">
+								<ul>
+									<li>Defined in minecraft-scripting-types-server/types/server_system_components.generated.d.ts:18</li>
+								</ul>
+							</aside>
+							<h4 class="tsd-parameters-title">Parameters</h4>
+							<ul class="tsd-parameters">
+								<li>
+									<h5>entity: <a href="ientity.html" class="tsd-signature-type">IEntity</a></h5>
+								</li>
+								<li>
+									<h5>componentName: <a href="../enums/minecraftcomponent.html#healable" class="tsd-signature-type">Healable</a></h5>
+								</li>
+							</ul>
+							<h4 class="tsd-returns-title">Returns <a href="icomponent.html" class="tsd-signature-type">IComponent</a><span class="tsd-signature-symbol">&lt;</span><a href="ihealablecomponent.html" class="tsd-signature-type">IHealableComponent</a><span class="tsd-signature-symbol">&gt;</span>
+								<span class="tsd-signature-symbol"> | </span>
+								<span class="tsd-signature-type">null</span>
+							</h4>
+						</li>
+						<li class="tsd-description">
+							<aside class="tsd-sources">
+								<ul>
+									<li>Defined in minecraft-scripting-types-server/types/server_system_components.generated.d.ts:19</li>
+								</ul>
+							</aside>
+							<h4 class="tsd-parameters-title">Parameters</h4>
+							<ul class="tsd-parameters">
+								<li>
+									<h5>entity: <a href="ientity.html" class="tsd-signature-type">IEntity</a></h5>
+								</li>
+								<li>
+									<h5>componentName: <a href="../enums/minecraftcomponent.html#health" class="tsd-signature-type">Health</a></h5>
+								</li>
+							</ul>
+							<h4 class="tsd-returns-title">Returns <a href="icomponent.html" class="tsd-signature-type">IComponent</a><span class="tsd-signature-symbol">&lt;</span><a href="ihealthcomponent.html" class="tsd-signature-type">IHealthComponent</a><span class="tsd-signature-symbol">&gt;</span>
+								<span class="tsd-signature-symbol"> | </span>
+								<span class="tsd-signature-type">null</span>
+							</h4>
+						</li>
+						<li class="tsd-description">
+							<aside class="tsd-sources">
+								<ul>
+									<li>Defined in minecraft-scripting-types-server/types/server_system_components.generated.d.ts:20</li>
+								</ul>
+							</aside>
+							<h4 class="tsd-parameters-title">Parameters</h4>
+							<ul class="tsd-parameters">
+								<li>
+									<h5>entity: <a href="ientity.html" class="tsd-signature-type">IEntity</a></h5>
+								</li>
+								<li>
+									<h5>componentName: <a href="../enums/minecraftcomponent.html#hotbarcontainer" class="tsd-signature-type">HotbarContainer</a></h5>
+								</li>
+							</ul>
+							<h4 class="tsd-returns-title">Returns <a href="icomponent.html" class="tsd-signature-type">IComponent</a><span class="tsd-signature-symbol">&lt;</span><a href="../globals.html#ihotbarcontainercomponent" class="tsd-signature-type">IHotbarContainerComponent</a><span class="tsd-signature-symbol">&gt;</span>
+								<span class="tsd-signature-symbol"> | </span>
+								<span class="tsd-signature-type">null</span>
+							</h4>
+						</li>
+						<li class="tsd-description">
+							<aside class="tsd-sources">
+								<ul>
+									<li>Defined in minecraft-scripting-types-server/types/server_system_components.generated.d.ts:21</li>
+								</ul>
+							</aside>
+							<h4 class="tsd-parameters-title">Parameters</h4>
+							<ul class="tsd-parameters">
+								<li>
+									<h5>entity: <a href="ientity.html" class="tsd-signature-type">IEntity</a></h5>
+								</li>
+								<li>
+									<h5>componentName: <a href="../enums/minecraftcomponent.html#interact" class="tsd-signature-type">Interact</a></h5>
+								</li>
+							</ul>
+							<h4 class="tsd-returns-title">Returns <a href="icomponent.html" class="tsd-signature-type">IComponent</a><span class="tsd-signature-symbol">&lt;</span><a href="iinteractcomponent.html" class="tsd-signature-type">IInteractComponent</a><span class="tsd-signature-symbol">&gt;</span>
+								<span class="tsd-signature-symbol"> | </span>
+								<span class="tsd-signature-type">null</span>
+							</h4>
+						</li>
+						<li class="tsd-description">
+							<aside class="tsd-sources">
+								<ul>
+									<li>Defined in minecraft-scripting-types-server/types/server_system_components.generated.d.ts:22</li>
+								</ul>
+							</aside>
+							<h4 class="tsd-parameters-title">Parameters</h4>
+							<ul class="tsd-parameters">
+								<li>
+									<h5>entity: <a href="ientity.html" class="tsd-signature-type">IEntity</a></h5>
+								</li>
+								<li>
+									<h5>componentName: <a href="../enums/minecraftcomponent.html#inventory" class="tsd-signature-type">Inventory</a></h5>
+								</li>
+							</ul>
+							<h4 class="tsd-returns-title">Returns <a href="icomponent.html" class="tsd-signature-type">IComponent</a><span class="tsd-signature-symbol">&lt;</span><a href="iinventorycomponent.html" class="tsd-signature-type">IInventoryComponent</a><span class="tsd-signature-symbol">&gt;</span>
+								<span class="tsd-signature-symbol"> | </span>
+								<span class="tsd-signature-type">null</span>
+							</h4>
+						</li>
+						<li class="tsd-description">
+							<aside class="tsd-sources">
+								<ul>
+									<li>Defined in minecraft-scripting-types-server/types/server_system_components.generated.d.ts:23</li>
+								</ul>
+							</aside>
+							<h4 class="tsd-parameters-title">Parameters</h4>
+							<ul class="tsd-parameters">
+								<li>
+									<h5>entity: <a href="ientity.html" class="tsd-signature-type">IEntity</a></h5>
+								</li>
+								<li>
+									<h5>componentName: <a href="../enums/minecraftcomponent.html#inventorycontainer" class="tsd-signature-type">InventoryContainer</a></h5>
+								</li>
+							</ul>
+							<h4 class="tsd-returns-title">Returns <a href="icomponent.html" class="tsd-signature-type">IComponent</a><span class="tsd-signature-symbol">&lt;</span><a href="../globals.html#iinventorycontainercomponent" class="tsd-signature-type">IInventoryContainerComponent</a><span class="tsd-signature-symbol">&gt;</span>
+								<span class="tsd-signature-symbol"> | </span>
+								<span class="tsd-signature-type">null</span>
+							</h4>
+						</li>
+						<li class="tsd-description">
+							<aside class="tsd-sources">
+								<ul>
+									<li>Defined in minecraft-scripting-types-server/types/server_system_components.generated.d.ts:24</li>
+								</ul>
+							</aside>
+							<h4 class="tsd-parameters-title">Parameters</h4>
+							<ul class="tsd-parameters">
+								<li>
+									<h5>entity: <a href="ientity.html" class="tsd-signature-type">IEntity</a></h5>
+								</li>
+								<li>
+									<h5>componentName: <a href="../enums/minecraftcomponent.html#lookat" class="tsd-signature-type">LookAt</a></h5>
+								</li>
+							</ul>
+							<h4 class="tsd-returns-title">Returns <a href="icomponent.html" class="tsd-signature-type">IComponent</a><span class="tsd-signature-symbol">&lt;</span><a href="ilookatcomponent.html" class="tsd-signature-type">ILookAtComponent</a><span class="tsd-signature-symbol">&gt;</span>
+								<span class="tsd-signature-symbol"> | </span>
+								<span class="tsd-signature-type">null</span>
+							</h4>
+						</li>
+						<li class="tsd-description">
+							<aside class="tsd-sources">
+								<ul>
+									<li>Defined in minecraft-scripting-types-server/types/server_system_components.generated.d.ts:25</li>
+								</ul>
+							</aside>
+							<h4 class="tsd-parameters-title">Parameters</h4>
+							<ul class="tsd-parameters">
+								<li>
+									<h5>entity: <a href="ientity.html" class="tsd-signature-type">IEntity</a></h5>
+								</li>
+								<li>
+									<h5>componentName: <a href="../enums/minecraftcomponent.html#nameable" class="tsd-signature-type">Nameable</a></h5>
+								</li>
+							</ul>
+							<h4 class="tsd-returns-title">Returns <a href="icomponent.html" class="tsd-signature-type">IComponent</a><span class="tsd-signature-symbol">&lt;</span><a href="inameablecomponent.html" class="tsd-signature-type">INameableComponent</a><span class="tsd-signature-symbol">&gt;</span>
+								<span class="tsd-signature-symbol"> | </span>
+								<span class="tsd-signature-type">null</span>
+							</h4>
+						</li>
+						<li class="tsd-description">
+							<aside class="tsd-sources">
+								<ul>
+									<li>Defined in minecraft-scripting-types-server/types/server_system_components.generated.d.ts:26</li>
+								</ul>
+							</aside>
+							<h4 class="tsd-parameters-title">Parameters</h4>
+							<ul class="tsd-parameters">
+								<li>
+									<h5>entity: <a href="ientity.html" class="tsd-signature-type">IEntity</a></h5>
+								</li>
+								<li>
+									<h5>componentName: <a href="../enums/minecraftcomponent.html#position" class="tsd-signature-type">Position</a></h5>
+								</li>
+							</ul>
+							<h4 class="tsd-returns-title">Returns <a href="icomponent.html" class="tsd-signature-type">IComponent</a><span class="tsd-signature-symbol">&lt;</span><a href="ipositioncomponent.html" class="tsd-signature-type">IPositionComponent</a><span class="tsd-signature-symbol">&gt;</span>
+								<span class="tsd-signature-symbol"> | </span>
+								<span class="tsd-signature-type">null</span>
+							</h4>
+						</li>
+						<li class="tsd-description">
+							<aside class="tsd-sources">
+								<ul>
+									<li>Defined in minecraft-scripting-types-server/types/server_system_components.generated.d.ts:27</li>
+								</ul>
+							</aside>
+							<h4 class="tsd-parameters-title">Parameters</h4>
+							<ul class="tsd-parameters">
+								<li>
+									<h5>entity: <a href="ientity.html" class="tsd-signature-type">IEntity</a></h5>
+								</li>
+								<li>
+									<h5>componentName: <a href="../enums/minecraftcomponent.html#rotation" class="tsd-signature-type">Rotation</a></h5>
+								</li>
+							</ul>
+							<h4 class="tsd-returns-title">Returns <a href="icomponent.html" class="tsd-signature-type">IComponent</a><span class="tsd-signature-symbol">&lt;</span><a href="irotationcomponent.html" class="tsd-signature-type">IRotationComponent</a><span class="tsd-signature-symbol">&gt;</span>
+								<span class="tsd-signature-symbol"> | </span>
+								<span class="tsd-signature-type">null</span>
+							</h4>
+						</li>
+						<li class="tsd-description">
+							<aside class="tsd-sources">
+								<ul>
+									<li>Defined in minecraft-scripting-types-server/types/server_system_components.generated.d.ts:28</li>
+								</ul>
+							</aside>
+							<h4 class="tsd-parameters-title">Parameters</h4>
+							<ul class="tsd-parameters">
+								<li>
+									<h5>entity: <a href="ientity.html" class="tsd-signature-type">IEntity</a></h5>
+								</li>
+								<li>
+									<h5>componentName: <a href="../enums/minecraftcomponent.html#shooter" class="tsd-signature-type">Shooter</a></h5>
+								</li>
+							</ul>
+							<h4 class="tsd-returns-title">Returns <a href="icomponent.html" class="tsd-signature-type">IComponent</a><span class="tsd-signature-symbol">&lt;</span><a href="ishootercomponent.html" class="tsd-signature-type">IShooterComponent</a><span class="tsd-signature-symbol">&gt;</span>
+								<span class="tsd-signature-symbol"> | </span>
+								<span class="tsd-signature-type">null</span>
+							</h4>
+						</li>
+						<li class="tsd-description">
+							<aside class="tsd-sources">
+								<ul>
+									<li>Defined in minecraft-scripting-types-server/types/server_system_components.generated.d.ts:29</li>
+								</ul>
+							</aside>
+							<h4 class="tsd-parameters-title">Parameters</h4>
+							<ul class="tsd-parameters">
+								<li>
+									<h5>entity: <a href="ientity.html" class="tsd-signature-type">IEntity</a></h5>
+								</li>
+								<li>
+									<h5>componentName: <a href="../enums/minecraftcomponent.html#spawnentity" class="tsd-signature-type">SpawnEntity</a></h5>
+								</li>
+							</ul>
+							<h4 class="tsd-returns-title">Returns <a href="icomponent.html" class="tsd-signature-type">IComponent</a><span class="tsd-signature-symbol">&lt;</span><a href="ispawnentitycomponent.html" class="tsd-signature-type">ISpawnEntityComponent</a><span class="tsd-signature-symbol">&gt;</span>
+								<span class="tsd-signature-symbol"> | </span>
+								<span class="tsd-signature-type">null</span>
+							</h4>
+						</li>
+						<li class="tsd-description">
+							<aside class="tsd-sources">
+								<ul>
+									<li>Defined in minecraft-scripting-types-server/types/server_system_components.generated.d.ts:30</li>
+								</ul>
+							</aside>
+							<h4 class="tsd-parameters-title">Parameters</h4>
+							<ul class="tsd-parameters">
+								<li>
+									<h5>entity: <a href="ientity.html" class="tsd-signature-type">IEntity</a></h5>
+								</li>
+								<li>
+									<h5>componentName: <a href="../enums/minecraftcomponent.html#teleport" class="tsd-signature-type">Teleport</a></h5>
+								</li>
+							</ul>
+							<h4 class="tsd-returns-title">Returns <a href="icomponent.html" class="tsd-signature-type">IComponent</a><span class="tsd-signature-symbol">&lt;</span><a href="iteleportcomponent.html" class="tsd-signature-type">ITeleportComponent</a><span class="tsd-signature-symbol">&gt;</span>
+								<span class="tsd-signature-symbol"> | </span>
+								<span class="tsd-signature-type">null</span>
+							</h4>
+						</li>
+						<li class="tsd-description">
+							<aside class="tsd-sources">
+								<ul>
+									<li>Defined in minecraft-scripting-types-server/types/server_system_components.generated.d.ts:31</li>
+								</ul>
+							</aside>
+							<h4 class="tsd-parameters-title">Parameters</h4>
+							<ul class="tsd-parameters">
+								<li>
+									<h5>entity: <a href="ientity.html" class="tsd-signature-type">IEntity</a></h5>
+								</li>
+								<li>
+									<h5>componentName: <a href="../enums/minecraftcomponent.html#tickworld" class="tsd-signature-type">TickWorld</a></h5>
+								</li>
+							</ul>
+							<h4 class="tsd-returns-title">Returns <a href="icomponent.html" class="tsd-signature-type">IComponent</a><span class="tsd-signature-symbol">&lt;</span><a href="itickworldcomponent.html" class="tsd-signature-type">ITickWorldComponent</a><span class="tsd-signature-symbol">&gt;</span>
+								<span class="tsd-signature-symbol"> | </span>
+								<span class="tsd-signature-type">null</span>
+							</h4>
+						</li>
+						<li class="tsd-description">
+							<aside class="tsd-sources">
+								<ul>
+									<li>Defined in minecraft-scripting-types-server/types/server_system_components.generated.d.ts:63</li>
+								</ul>
+							</aside>
+							<div class="tsd-comment tsd-typography">
+								<div class="lead">
+									<p>Creates a component of the specified name and adds it to the entity. This should only be used with custom components which need
+									to be registered first. If the entity already has the component, this will retrieve the component already there instead.</p>
+								</div>
+							</div>
+							<h4 class="tsd-type-parameters-title">Type parameters</h4>
+							<ul class="tsd-type-parameters">
+								<li>
+									<h4>TComponent</h4>
+								</li>
+							</ul>
+							<h4 class="tsd-parameters-title">Parameters</h4>
+							<ul class="tsd-parameters">
+								<li>
+									<h5>entity: <a href="ientity.html" class="tsd-signature-type">IEntity</a></h5>
+									<div class="tsd-comment tsd-typography">
+										<p>The EntityObject that was retrieved from a call to createEntity() or retrieved from an event</p>
+									</div>
+								</li>
+								<li>
+									<h5>componentName: <span class="tsd-signature-type">string</span></h5>
+									<div class="tsd-comment tsd-typography">
+										<p>The name of the component to add to the entity. This is either the name of a built-in component (check the Script Components section) or a custom component created with a call to registerComponent()</p>
+									</div>
+								</li>
+							</ul>
+							<h4 class="tsd-returns-title">Returns <a href="icomponent.html" class="tsd-signature-type">IComponent</a><span class="tsd-signature-symbol">&lt;</span><span class="tsd-signature-type">TComponent</span><span class="tsd-signature-symbol">&gt;</span>
+								<span class="tsd-signature-symbol"> | </span>
+								<span class="tsd-signature-type">null</span>
+							</h4>
+							<p>An object with all the fields as defined in the component, or null if something went wrong when creating the component</p>
+						</li>
+					</ul>
+				</section>
+				<section class="tsd-panel tsd-member tsd-kind-method tsd-parent-kind-interface tsd-has-type-parameter tsd-is-external tsd-is-not-exported">
+					<a name="createeventdata" class="tsd-anchor"></a>
+					<h3>create<wbr>Event<wbr>Data</h3>
+					<ul class="tsd-signatures tsd-kind-method tsd-parent-kind-interface tsd-has-type-parameter tsd-is-external tsd-is-not-exported">
+						<li class="tsd-signature tsd-kind-icon">create<wbr>Event<wbr>Data<span class="tsd-signature-symbol">(</span>eventIdentifier<span class="tsd-signature-symbol">: </span><a href="../enums/sendtominecraftserver.html#displaychat" class="tsd-signature-type">DisplayChat</a><span class="tsd-signature-symbol">)</span><span class="tsd-signature-symbol">: </span><a href="ieventdata.html" class="tsd-signature-type">IEventData</a><span class="tsd-signature-symbol">&lt;</span><span class="tsd-signature-type">IDisplayChatParameters</span><span class="tsd-signature-symbol">&gt;</span><span class="tsd-signature-symbol"> | </span><span class="tsd-signature-type">null</span></li>
+						<li class="tsd-signature tsd-kind-icon">create<wbr>Event<wbr>Data<span class="tsd-signature-symbol">(</span>eventIdentifier<span class="tsd-signature-symbol">: </span><a href="../enums/sendtominecraftserver.html#executecommand" class="tsd-signature-type">ExecuteCommand</a><span class="tsd-signature-symbol">)</span><span class="tsd-signature-symbol">: </span><a href="ieventdata.html" class="tsd-signature-type">IEventData</a><span class="tsd-signature-symbol">&lt;</span><a href="iexecutecommandparameters.html" class="tsd-signature-type">IExecuteCommandParameters</a><span class="tsd-signature-symbol">&gt;</span><span class="tsd-signature-symbol"> | </span><span class="tsd-signature-type">null</span></li>
+						<li class="tsd-signature tsd-kind-icon">create<wbr>Event<wbr>Data<span class="tsd-signature-symbol">(</span>eventIdentifier<span class="tsd-signature-symbol">: </span><a href="../enums/sendtominecraftserver.html#playsound" class="tsd-signature-type">PlaySound</a><span class="tsd-signature-symbol">)</span><span class="tsd-signature-symbol">: </span><a href="ieventdata.html" class="tsd-signature-type">IEventData</a><span class="tsd-signature-symbol">&lt;</span><a href="iplaysoundparameters.html" class="tsd-signature-type">IPlaySoundParameters</a><span class="tsd-signature-symbol">&gt;</span><span class="tsd-signature-symbol"> | </span><span class="tsd-signature-type">null</span></li>
+						<li class="tsd-signature tsd-kind-icon">create<wbr>Event<wbr>Data<span class="tsd-signature-symbol">(</span>eventIdentifier<span class="tsd-signature-symbol">: </span><a href="../enums/sendtominecraftserver.html#scriptloggerconfig" class="tsd-signature-type">ScriptLoggerConfig</a><span class="tsd-signature-symbol">)</span><span class="tsd-signature-symbol">: </span><a href="ieventdata.html" class="tsd-signature-type">IEventData</a><span class="tsd-signature-symbol">&lt;</span><span class="tsd-signature-type">IScriptLoggerConfigParameters</span><span class="tsd-signature-symbol">&gt;</span><span class="tsd-signature-symbol"> | </span><span class="tsd-signature-type">null</span></li>
+						<li class="tsd-signature tsd-kind-icon">create<wbr>Event<wbr>Data<span class="tsd-signature-symbol">(</span>eventIdentifier<span class="tsd-signature-symbol">: </span><a href="../enums/sendtominecraftserver.html#spawnparticleattachedentity" class="tsd-signature-type">SpawnParticleAttachedEntity</a><span class="tsd-signature-symbol">)</span><span class="tsd-signature-symbol">: </span><a href="ieventdata.html" class="tsd-signature-type">IEventData</a><span class="tsd-signature-symbol">&lt;</span><span class="tsd-signature-type">ISpawnParticleAttachedEntityParameters</span><span class="tsd-signature-symbol">&gt;</span><span class="tsd-signature-symbol"> | </span><span class="tsd-signature-type">null</span></li>
+						<li class="tsd-signature tsd-kind-icon">create<wbr>Event<wbr>Data<span class="tsd-signature-symbol">(</span>eventIdentifier<span class="tsd-signature-symbol">: </span><a href="../enums/sendtominecraftserver.html#spawnparticleinworld" class="tsd-signature-type">SpawnParticleInWorld</a><span class="tsd-signature-symbol">)</span><span class="tsd-signature-symbol">: </span><a href="ieventdata.html" class="tsd-signature-type">IEventData</a><span class="tsd-signature-symbol">&lt;</span><span class="tsd-signature-type">ISpawnParticleInWorldParameters</span><span class="tsd-signature-symbol">&gt;</span><span class="tsd-signature-symbol"> | </span><span class="tsd-signature-type">null</span></li>
+						<li class="tsd-signature tsd-kind-icon">create<wbr>Event<wbr>Data&lt;TEventDataType&gt;<span class="tsd-signature-symbol">(</span>eventIdentifier<span class="tsd-signature-symbol">: </span><span class="tsd-signature-type">string</span><span class="tsd-signature-symbol">)</span><span class="tsd-signature-symbol">: </span><a href="ieventdata.html" class="tsd-signature-type">IEventData</a><span class="tsd-signature-symbol">&lt;</span><span class="tsd-signature-type">TEventDataType</span><span class="tsd-signature-symbol">&gt;</span><span class="tsd-signature-symbol"> | </span><span class="tsd-signature-type">null</span></li>
+					</ul>
+					<ul class="tsd-descriptions">
+						<li class="tsd-description">
+							<aside class="tsd-sources">
+								<ul>
+									<li>Defined in minecraft-scripting-types-server/types/server_system_events.generated.d.ts:15</li>
+								</ul>
+							</aside>
+							<div class="tsd-comment tsd-typography">
+								<div class="lead">
+									<p>This event is used to send a chat message from the server to the players. The event data is the message being sent as a string. Special formatting is supported the same way it would be if a player was sending the message.</p>
+								</div>
+							</div>
+							<h4 class="tsd-parameters-title">Parameters</h4>
+							<ul class="tsd-parameters">
+								<li>
+									<h5>eventIdentifier: <a href="../enums/sendtominecraftserver.html#displaychat" class="tsd-signature-type">DisplayChat</a></h5>
+								</li>
+							</ul>
+							<h4 class="tsd-returns-title">Returns <a href="ieventdata.html" class="tsd-signature-type">IEventData</a><span class="tsd-signature-symbol">&lt;</span><span class="tsd-signature-type">IDisplayChatParameters</span><span class="tsd-signature-symbol">&gt;</span>
+								<span class="tsd-signature-symbol"> | </span>
+								<span class="tsd-signature-type">null</span>
+							</h4>
+						</li>
+						<li class="tsd-description">
+							<aside class="tsd-sources">
+								<ul>
+									<li>Defined in minecraft-scripting-types-server/types/server_system_events.generated.d.ts:19</li>
+								</ul>
+							</aside>
+							<div class="tsd-comment tsd-typography">
+								<div class="lead">
+									<p>This event is used to execute a slash command on the server with the World Owner permission level. The event data contains the slash command as a string. The slash command will be processed and will run after the event is sent.</p>
+								</div>
+							</div>
+							<h4 class="tsd-parameters-title">Parameters</h4>
+							<ul class="tsd-parameters">
+								<li>
+									<h5>eventIdentifier: <a href="../enums/sendtominecraftserver.html#executecommand" class="tsd-signature-type">ExecuteCommand</a></h5>
+								</li>
+							</ul>
+							<h4 class="tsd-returns-title">Returns <a href="ieventdata.html" class="tsd-signature-type">IEventData</a><span class="tsd-signature-symbol">&lt;</span><a href="iexecutecommandparameters.html" class="tsd-signature-type">IExecuteCommandParameters</a><span class="tsd-signature-symbol">&gt;</span>
+								<span class="tsd-signature-symbol"> | </span>
+								<span class="tsd-signature-type">null</span>
+							</h4>
+						</li>
+						<li class="tsd-description">
+							<aside class="tsd-sources">
+								<ul>
+									<li>Defined in minecraft-scripting-types-server/types/server_system_events.generated.d.ts:23</li>
+								</ul>
+							</aside>
+							<div class="tsd-comment tsd-typography">
+								<div class="lead">
+									<p>This event is used to play a sound effect. Currently, sounds can only be played at a fixed position in the world. Global sounds and sounds played by an entity will be supported in a later update.</p>
+								</div>
+							</div>
+							<h4 class="tsd-parameters-title">Parameters</h4>
+							<ul class="tsd-parameters">
+								<li>
+									<h5>eventIdentifier: <a href="../enums/sendtominecraftserver.html#playsound" class="tsd-signature-type">PlaySound</a></h5>
+								</li>
+							</ul>
+							<h4 class="tsd-returns-title">Returns <a href="ieventdata.html" class="tsd-signature-type">IEventData</a><span class="tsd-signature-symbol">&lt;</span><a href="iplaysoundparameters.html" class="tsd-signature-type">IPlaySoundParameters</a><span class="tsd-signature-symbol">&gt;</span>
+								<span class="tsd-signature-symbol"> | </span>
+								<span class="tsd-signature-type">null</span>
+							</h4>
+						</li>
+						<li class="tsd-description">
+							<aside class="tsd-sources">
+								<ul>
+									<li>Defined in minecraft-scripting-types-server/types/server_system_events.generated.d.ts:27</li>
+								</ul>
+							</aside>
+							<div class="tsd-comment tsd-typography">
+								<div class="lead">
+									<p>This event is used to turn various levels of logging on and off for server scripts. Note that turning logging on/off is not limited to the script that broadcasted the event. It will affect ALL server scripts including those in other Behavior Packs that are applied to the world. See the Debugging section for more information on logging.</p>
+								</div>
+							</div>
+							<h4 class="tsd-parameters-title">Parameters</h4>
+							<ul class="tsd-parameters">
+								<li>
+									<h5>eventIdentifier: <a href="../enums/sendtominecraftserver.html#scriptloggerconfig" class="tsd-signature-type">ScriptLoggerConfig</a></h5>
+								</li>
+							</ul>
+							<h4 class="tsd-returns-title">Returns <a href="ieventdata.html" class="tsd-signature-type">IEventData</a><span class="tsd-signature-symbol">&lt;</span><span class="tsd-signature-type">IScriptLoggerConfigParameters</span><span class="tsd-signature-symbol">&gt;</span>
+								<span class="tsd-signature-symbol"> | </span>
+								<span class="tsd-signature-type">null</span>
+							</h4>
+						</li>
+						<li class="tsd-description">
+							<aside class="tsd-sources">
+								<ul>
+									<li>Defined in minecraft-scripting-types-server/types/server_system_events.generated.d.ts:31</li>
+								</ul>
+							</aside>
+							<div class="tsd-comment tsd-typography">
+								<div class="lead">
+									<p>This event is used to create a particle effect that will follow an entity around. This particle effect is visible to all players. Any effect defined in a JSON file (both in your resource pack and in Minecraft) can be used here. MoLang variables defined in the JSON of the effect can then be used to control that effect by changing them in the entity to which it is attached.</p>
+								</div>
+							</div>
+							<h4 class="tsd-parameters-title">Parameters</h4>
+							<ul class="tsd-parameters">
+								<li>
+									<h5>eventIdentifier: <a href="../enums/sendtominecraftserver.html#spawnparticleattachedentity" class="tsd-signature-type">SpawnParticleAttachedEntity</a></h5>
+								</li>
+							</ul>
+							<h4 class="tsd-returns-title">Returns <a href="ieventdata.html" class="tsd-signature-type">IEventData</a><span class="tsd-signature-symbol">&lt;</span><span class="tsd-signature-type">ISpawnParticleAttachedEntityParameters</span><span class="tsd-signature-symbol">&gt;</span>
+								<span class="tsd-signature-symbol"> | </span>
+								<span class="tsd-signature-type">null</span>
+							</h4>
+						</li>
+						<li class="tsd-description">
+							<aside class="tsd-sources">
+								<ul>
+									<li>Defined in minecraft-scripting-types-server/types/server_system_events.generated.d.ts:35</li>
+								</ul>
+							</aside>
+							<div class="tsd-comment tsd-typography">
+								<div class="lead">
+									<p>This event is used to create a static particle effect in the world. This particle effect is visible to all players. Any effect defined in a JSON file (both in your resource pack and in Minecraft) can be used here. Once the effect is spawned you won&#39;t be able to control it further.</p>
+								</div>
+							</div>
+							<h4 class="tsd-parameters-title">Parameters</h4>
+							<ul class="tsd-parameters">
+								<li>
+									<h5>eventIdentifier: <a href="../enums/sendtominecraftserver.html#spawnparticleinworld" class="tsd-signature-type">SpawnParticleInWorld</a></h5>
+								</li>
+							</ul>
+							<h4 class="tsd-returns-title">Returns <a href="ieventdata.html" class="tsd-signature-type">IEventData</a><span class="tsd-signature-symbol">&lt;</span><span class="tsd-signature-type">ISpawnParticleInWorldParameters</span><span class="tsd-signature-symbol">&gt;</span>
+								<span class="tsd-signature-symbol"> | </span>
+								<span class="tsd-signature-type">null</span>
+							</h4>
+						</li>
+						<li class="tsd-description">
+							<aside class="tsd-sources">
+								<ul>
+									<li>Defined in minecraft-scripting-types-server/types/server_system_events.generated.d.ts:162</li>
+								</ul>
+							</aside>
+							<div class="tsd-comment tsd-typography">
+								<div class="lead">
+									<p>Creates an object with all the required fields and default data for the specified event. If the event is a custom event, it needs to have been previously registered.</p>
+								</div>
+							</div>
+							<h4 class="tsd-type-parameters-title">Type parameters</h4>
+							<ul class="tsd-type-parameters">
+								<li>
+									<h4>TEventDataType</h4>
+								</li>
+							</ul>
+							<h4 class="tsd-parameters-title">Parameters</h4>
+							<ul class="tsd-parameters">
+								<li>
+									<h5>eventIdentifier: <span class="tsd-signature-type">string</span></h5>
+									<div class="tsd-comment tsd-typography">
+										<p>This is the identifier of the custom event we are registering. The namespace is required and can&#39;t be set to minecraft.</p>
+									</div>
+								</li>
+							</ul>
+							<h4 class="tsd-returns-title">Returns <a href="ieventdata.html" class="tsd-signature-type">IEventData</a><span class="tsd-signature-symbol">&lt;</span><span class="tsd-signature-type">TEventDataType</span><span class="tsd-signature-symbol">&gt;</span>
+								<span class="tsd-signature-symbol"> | </span>
+								<span class="tsd-signature-type">null</span>
+							</h4>
+						</li>
+					</ul>
+				</section>
+				<section class="tsd-panel tsd-member tsd-kind-method tsd-parent-kind-interface tsd-has-type-parameter tsd-is-external tsd-is-not-exported">
+					<a name="getcomponent" class="tsd-anchor"></a>
+					<h3>get<wbr>Component</h3>
+					<ul class="tsd-signatures tsd-kind-method tsd-parent-kind-interface tsd-has-type-parameter tsd-is-external tsd-is-not-exported">
+						<li class="tsd-signature tsd-kind-icon">get<wbr>Component<span class="tsd-signature-symbol">(</span>entity<span class="tsd-signature-symbol">: </span><a href="ientity.html" class="tsd-signature-type">IEntity</a>, componentName<span class="tsd-signature-symbol">: </span><a href="../enums/minecraftcomponent.html#armorcontainer" class="tsd-signature-type">ArmorContainer</a><span class="tsd-signature-symbol">)</span><span class="tsd-signature-symbol">: </span><a href="icomponent.html" class="tsd-signature-type">IComponent</a><span class="tsd-signature-symbol">&lt;</span><a href="../globals.html#iarmorcontainercomponent" class="tsd-signature-type">IArmorContainerComponent</a><span class="tsd-signature-symbol">&gt;</span><span class="tsd-signature-symbol"> | </span><span class="tsd-signature-type">null</span></li>
+						<li class="tsd-signature tsd-kind-icon">get<wbr>Component<span class="tsd-signature-symbol">(</span>entity<span class="tsd-signature-symbol">: </span><a href="ientity.html" class="tsd-signature-type">IEntity</a>, componentName<span class="tsd-signature-symbol">: </span><a href="../enums/minecraftcomponent.html#attack" class="tsd-signature-type">Attack</a><span class="tsd-signature-symbol">)</span><span class="tsd-signature-symbol">: </span><a href="icomponent.html" class="tsd-signature-type">IComponent</a><span class="tsd-signature-symbol">&lt;</span><a href="iattackcomponent.html" class="tsd-signature-type">IAttackComponent</a><span class="tsd-signature-symbol">&gt;</span><span class="tsd-signature-symbol"> | </span><span class="tsd-signature-type">null</span></li>
+						<li class="tsd-signature tsd-kind-icon">get<wbr>Component<span class="tsd-signature-symbol">(</span>entity<span class="tsd-signature-symbol">: </span><a href="ientity.html" class="tsd-signature-type">IEntity</a>, componentName<span class="tsd-signature-symbol">: </span><a href="../enums/minecraftcomponent.html#collisionbox" class="tsd-signature-type">CollisionBox</a><span class="tsd-signature-symbol">)</span><span class="tsd-signature-symbol">: </span><a href="icomponent.html" class="tsd-signature-type">IComponent</a><span class="tsd-signature-symbol">&lt;</span><a href="icollisionboxcomponent.html" class="tsd-signature-type">ICollisionBoxComponent</a><span class="tsd-signature-symbol">&gt;</span><span class="tsd-signature-symbol"> | </span><span class="tsd-signature-type">null</span></li>
+						<li class="tsd-signature tsd-kind-icon">get<wbr>Component<span class="tsd-signature-symbol">(</span>entity<span class="tsd-signature-symbol">: </span><a href="ientity.html" class="tsd-signature-type">IEntity</a>, componentName<span class="tsd-signature-symbol">: </span><a href="../enums/minecraftcomponent.html#damagesensor" class="tsd-signature-type">DamageSensor</a><span class="tsd-signature-symbol">)</span><span class="tsd-signature-symbol">: </span><a href="icomponent.html" class="tsd-signature-type">IComponent</a><span class="tsd-signature-symbol">&lt;</span><a href="idamagesensorcomponent.html" class="tsd-signature-type">IDamageSensorComponent</a><span class="tsd-signature-symbol">&gt;</span><span class="tsd-signature-symbol"> | </span><span class="tsd-signature-type">null</span></li>
+						<li class="tsd-signature tsd-kind-icon">get<wbr>Component<span class="tsd-signature-symbol">(</span>entity<span class="tsd-signature-symbol">: </span><a href="ientity.html" class="tsd-signature-type">IEntity</a>, componentName<span class="tsd-signature-symbol">: </span><a href="../enums/minecraftcomponent.html#equipment" class="tsd-signature-type">Equipment</a><span class="tsd-signature-symbol">)</span><span class="tsd-signature-symbol">: </span><a href="icomponent.html" class="tsd-signature-type">IComponent</a><span class="tsd-signature-symbol">&lt;</span><a href="iequipmentcomponent.html" class="tsd-signature-type">IEquipmentComponent</a><span class="tsd-signature-symbol">&gt;</span><span class="tsd-signature-symbol"> | </span><span class="tsd-signature-type">null</span></li>
+						<li class="tsd-signature tsd-kind-icon">get<wbr>Component<span class="tsd-signature-symbol">(</span>entity<span class="tsd-signature-symbol">: </span><a href="ientity.html" class="tsd-signature-type">IEntity</a>, componentName<span class="tsd-signature-symbol">: </span><a href="../enums/minecraftcomponent.html#equippable" class="tsd-signature-type">Equippable</a><span class="tsd-signature-symbol">)</span><span class="tsd-signature-symbol">: </span><a href="icomponent.html" class="tsd-signature-type">IComponent</a><span class="tsd-signature-symbol">&lt;</span><a href="iequippablecomponent.html" class="tsd-signature-type">IEquippableComponent</a><span class="tsd-signature-symbol">&gt;</span><span class="tsd-signature-symbol"> | </span><span class="tsd-signature-type">null</span></li>
+						<li class="tsd-signature tsd-kind-icon">get<wbr>Component<span class="tsd-signature-symbol">(</span>entity<span class="tsd-signature-symbol">: </span><a href="ientity.html" class="tsd-signature-type">IEntity</a>, componentName<span class="tsd-signature-symbol">: </span><a href="../enums/minecraftcomponent.html#explode" class="tsd-signature-type">Explode</a><span class="tsd-signature-symbol">)</span><span class="tsd-signature-symbol">: </span><a href="icomponent.html" class="tsd-signature-type">IComponent</a><span class="tsd-signature-symbol">&lt;</span><a href="iexplodecomponent.html" class="tsd-signature-type">IExplodeComponent</a><span class="tsd-signature-symbol">&gt;</span><span class="tsd-signature-symbol"> | </span><span class="tsd-signature-type">null</span></li>
+						<li class="tsd-signature tsd-kind-icon">get<wbr>Component<span class="tsd-signature-symbol">(</span>entity<span class="tsd-signature-symbol">: </span><a href="ientity.html" class="tsd-signature-type">IEntity</a>, componentName<span class="tsd-signature-symbol">: </span><a href="../enums/minecraftcomponent.html#handcontainer" class="tsd-signature-type">HandContainer</a><span class="tsd-signature-symbol">)</span><span class="tsd-signature-symbol">: </span><a href="icomponent.html" class="tsd-signature-type">IComponent</a><span class="tsd-signature-symbol">&lt;</span><a href="../globals.html#ihandcontainercomponent" class="tsd-signature-type">IHandContainerComponent</a><span class="tsd-signature-symbol">&gt;</span><span class="tsd-signature-symbol"> | </span><span class="tsd-signature-type">null</span></li>
+						<li class="tsd-signature tsd-kind-icon">get<wbr>Component<span class="tsd-signature-symbol">(</span>entity<span class="tsd-signature-symbol">: </span><a href="ientity.html" class="tsd-signature-type">IEntity</a>, componentName<span class="tsd-signature-symbol">: </span><a href="../enums/minecraftcomponent.html#healable" class="tsd-signature-type">Healable</a><span class="tsd-signature-symbol">)</span><span class="tsd-signature-symbol">: </span><a href="icomponent.html" class="tsd-signature-type">IComponent</a><span class="tsd-signature-symbol">&lt;</span><a href="ihealablecomponent.html" class="tsd-signature-type">IHealableComponent</a><span class="tsd-signature-symbol">&gt;</span><span class="tsd-signature-symbol"> | </span><span class="tsd-signature-type">null</span></li>
+						<li class="tsd-signature tsd-kind-icon">get<wbr>Component<span class="tsd-signature-symbol">(</span>entity<span class="tsd-signature-symbol">: </span><a href="ientity.html" class="tsd-signature-type">IEntity</a>, componentName<span class="tsd-signature-symbol">: </span><a href="../enums/minecraftcomponent.html#health" class="tsd-signature-type">Health</a><span class="tsd-signature-symbol">)</span><span class="tsd-signature-symbol">: </span><a href="icomponent.html" class="tsd-signature-type">IComponent</a><span class="tsd-signature-symbol">&lt;</span><a href="ihealthcomponent.html" class="tsd-signature-type">IHealthComponent</a><span class="tsd-signature-symbol">&gt;</span><span class="tsd-signature-symbol"> | </span><span class="tsd-signature-type">null</span></li>
+						<li class="tsd-signature tsd-kind-icon">get<wbr>Component<span class="tsd-signature-symbol">(</span>entity<span class="tsd-signature-symbol">: </span><a href="ientity.html" class="tsd-signature-type">IEntity</a>, componentName<span class="tsd-signature-symbol">: </span><a href="../enums/minecraftcomponent.html#hotbarcontainer" class="tsd-signature-type">HotbarContainer</a><span class="tsd-signature-symbol">)</span><span class="tsd-signature-symbol">: </span><a href="icomponent.html" class="tsd-signature-type">IComponent</a><span class="tsd-signature-symbol">&lt;</span><a href="../globals.html#ihotbarcontainercomponent" class="tsd-signature-type">IHotbarContainerComponent</a><span class="tsd-signature-symbol">&gt;</span><span class="tsd-signature-symbol"> | </span><span class="tsd-signature-type">null</span></li>
+						<li class="tsd-signature tsd-kind-icon">get<wbr>Component<span class="tsd-signature-symbol">(</span>entity<span class="tsd-signature-symbol">: </span><a href="ientity.html" class="tsd-signature-type">IEntity</a>, componentName<span class="tsd-signature-symbol">: </span><a href="../enums/minecraftcomponent.html#interact" class="tsd-signature-type">Interact</a><span class="tsd-signature-symbol">)</span><span class="tsd-signature-symbol">: </span><a href="icomponent.html" class="tsd-signature-type">IComponent</a><span class="tsd-signature-symbol">&lt;</span><a href="iinteractcomponent.html" class="tsd-signature-type">IInteractComponent</a><span class="tsd-signature-symbol">&gt;</span><span class="tsd-signature-symbol"> | </span><span class="tsd-signature-type">null</span></li>
+						<li class="tsd-signature tsd-kind-icon">get<wbr>Component<span class="tsd-signature-symbol">(</span>entity<span class="tsd-signature-symbol">: </span><a href="ientity.html" class="tsd-signature-type">IEntity</a>, componentName<span class="tsd-signature-symbol">: </span><a href="../enums/minecraftcomponent.html#inventory" class="tsd-signature-type">Inventory</a><span class="tsd-signature-symbol">)</span><span class="tsd-signature-symbol">: </span><a href="icomponent.html" class="tsd-signature-type">IComponent</a><span class="tsd-signature-symbol">&lt;</span><a href="iinventorycomponent.html" class="tsd-signature-type">IInventoryComponent</a><span class="tsd-signature-symbol">&gt;</span><span class="tsd-signature-symbol"> | </span><span class="tsd-signature-type">null</span></li>
+						<li class="tsd-signature tsd-kind-icon">get<wbr>Component<span class="tsd-signature-symbol">(</span>entity<span class="tsd-signature-symbol">: </span><a href="ientity.html" class="tsd-signature-type">IEntity</a>, componentName<span class="tsd-signature-symbol">: </span><a href="../enums/minecraftcomponent.html#inventorycontainer" class="tsd-signature-type">InventoryContainer</a><span class="tsd-signature-symbol">)</span><span class="tsd-signature-symbol">: </span><a href="icomponent.html" class="tsd-signature-type">IComponent</a><span class="tsd-signature-symbol">&lt;</span><a href="../globals.html#iinventorycontainercomponent" class="tsd-signature-type">IInventoryContainerComponent</a><span class="tsd-signature-symbol">&gt;</span><span class="tsd-signature-symbol"> | </span><span class="tsd-signature-type">null</span></li>
+						<li class="tsd-signature tsd-kind-icon">get<wbr>Component<span class="tsd-signature-symbol">(</span>entity<span class="tsd-signature-symbol">: </span><a href="ientity.html" class="tsd-signature-type">IEntity</a>, componentName<span class="tsd-signature-symbol">: </span><a href="../enums/minecraftcomponent.html#lookat" class="tsd-signature-type">LookAt</a><span class="tsd-signature-symbol">)</span><span class="tsd-signature-symbol">: </span><a href="icomponent.html" class="tsd-signature-type">IComponent</a><span class="tsd-signature-symbol">&lt;</span><a href="ilookatcomponent.html" class="tsd-signature-type">ILookAtComponent</a><span class="tsd-signature-symbol">&gt;</span><span class="tsd-signature-symbol"> | </span><span class="tsd-signature-type">null</span></li>
+						<li class="tsd-signature tsd-kind-icon">get<wbr>Component<span class="tsd-signature-symbol">(</span>entity<span class="tsd-signature-symbol">: </span><a href="ientity.html" class="tsd-signature-type">IEntity</a>, componentName<span class="tsd-signature-symbol">: </span><a href="../enums/minecraftcomponent.html#nameable" class="tsd-signature-type">Nameable</a><span class="tsd-signature-symbol">)</span><span class="tsd-signature-symbol">: </span><a href="icomponent.html" class="tsd-signature-type">IComponent</a><span class="tsd-signature-symbol">&lt;</span><a href="inameablecomponent.html" class="tsd-signature-type">INameableComponent</a><span class="tsd-signature-symbol">&gt;</span><span class="tsd-signature-symbol"> | </span><span class="tsd-signature-type">null</span></li>
+						<li class="tsd-signature tsd-kind-icon">get<wbr>Component<span class="tsd-signature-symbol">(</span>entity<span class="tsd-signature-symbol">: </span><a href="ientity.html" class="tsd-signature-type">IEntity</a>, componentName<span class="tsd-signature-symbol">: </span><a href="../enums/minecraftcomponent.html#position" class="tsd-signature-type">Position</a><span class="tsd-signature-symbol">)</span><span class="tsd-signature-symbol">: </span><a href="icomponent.html" class="tsd-signature-type">IComponent</a><span class="tsd-signature-symbol">&lt;</span><a href="ipositioncomponent.html" class="tsd-signature-type">IPositionComponent</a><span class="tsd-signature-symbol">&gt;</span><span class="tsd-signature-symbol"> | </span><span class="tsd-signature-type">null</span></li>
+						<li class="tsd-signature tsd-kind-icon">get<wbr>Component<span class="tsd-signature-symbol">(</span>entity<span class="tsd-signature-symbol">: </span><a href="ientity.html" class="tsd-signature-type">IEntity</a>, componentName<span class="tsd-signature-symbol">: </span><a href="../enums/minecraftcomponent.html#rotation" class="tsd-signature-type">Rotation</a><span class="tsd-signature-symbol">)</span><span class="tsd-signature-symbol">: </span><a href="icomponent.html" class="tsd-signature-type">IComponent</a><span class="tsd-signature-symbol">&lt;</span><a href="irotationcomponent.html" class="tsd-signature-type">IRotationComponent</a><span class="tsd-signature-symbol">&gt;</span><span class="tsd-signature-symbol"> | </span><span class="tsd-signature-type">null</span></li>
+						<li class="tsd-signature tsd-kind-icon">get<wbr>Component<span class="tsd-signature-symbol">(</span>entity<span class="tsd-signature-symbol">: </span><a href="ientity.html" class="tsd-signature-type">IEntity</a>, componentName<span class="tsd-signature-symbol">: </span><a href="../enums/minecraftcomponent.html#shooter" class="tsd-signature-type">Shooter</a><span class="tsd-signature-symbol">)</span><span class="tsd-signature-symbol">: </span><a href="icomponent.html" class="tsd-signature-type">IComponent</a><span class="tsd-signature-symbol">&lt;</span><a href="ishootercomponent.html" class="tsd-signature-type">IShooterComponent</a><span class="tsd-signature-symbol">&gt;</span><span class="tsd-signature-symbol"> | </span><span class="tsd-signature-type">null</span></li>
+						<li class="tsd-signature tsd-kind-icon">get<wbr>Component<span class="tsd-signature-symbol">(</span>entity<span class="tsd-signature-symbol">: </span><a href="ientity.html" class="tsd-signature-type">IEntity</a>, componentName<span class="tsd-signature-symbol">: </span><a href="../enums/minecraftcomponent.html#spawnentity" class="tsd-signature-type">SpawnEntity</a><span class="tsd-signature-symbol">)</span><span class="tsd-signature-symbol">: </span><a href="icomponent.html" class="tsd-signature-type">IComponent</a><span class="tsd-signature-symbol">&lt;</span><a href="ispawnentitycomponent.html" class="tsd-signature-type">ISpawnEntityComponent</a><span class="tsd-signature-symbol">&gt;</span><span class="tsd-signature-symbol"> | </span><span class="tsd-signature-type">null</span></li>
+						<li class="tsd-signature tsd-kind-icon">get<wbr>Component<span class="tsd-signature-symbol">(</span>entity<span class="tsd-signature-symbol">: </span><a href="ientity.html" class="tsd-signature-type">IEntity</a>, componentName<span class="tsd-signature-symbol">: </span><a href="../enums/minecraftcomponent.html#teleport" class="tsd-signature-type">Teleport</a><span class="tsd-signature-symbol">)</span><span class="tsd-signature-symbol">: </span><a href="icomponent.html" class="tsd-signature-type">IComponent</a><span class="tsd-signature-symbol">&lt;</span><a href="iteleportcomponent.html" class="tsd-signature-type">ITeleportComponent</a><span class="tsd-signature-symbol">&gt;</span><span class="tsd-signature-symbol"> | </span><span class="tsd-signature-type">null</span></li>
+						<li class="tsd-signature tsd-kind-icon">get<wbr>Component<span class="tsd-signature-symbol">(</span>entity<span class="tsd-signature-symbol">: </span><a href="ientity.html" class="tsd-signature-type">IEntity</a>, componentName<span class="tsd-signature-symbol">: </span><a href="../enums/minecraftcomponent.html#tickworld" class="tsd-signature-type">TickWorld</a><span class="tsd-signature-symbol">)</span><span class="tsd-signature-symbol">: </span><a href="icomponent.html" class="tsd-signature-type">IComponent</a><span class="tsd-signature-symbol">&lt;</span><a href="itickworldcomponent.html" class="tsd-signature-type">ITickWorldComponent</a><span class="tsd-signature-symbol">&gt;</span><span class="tsd-signature-symbol"> | </span><span class="tsd-signature-type">null</span></li>
+						<li class="tsd-signature tsd-kind-icon">get<wbr>Component&lt;TComponent&gt;<span class="tsd-signature-symbol">(</span>entity<span class="tsd-signature-symbol">: </span><a href="ientity.html" class="tsd-signature-type">IEntity</a>, componentIdentifier<span class="tsd-signature-symbol">: </span><span class="tsd-signature-type">MinecraftComponent</span><span class="tsd-signature-symbol"> | </span><span class="tsd-signature-type">string</span><span class="tsd-signature-symbol">)</span><span class="tsd-signature-symbol">: </span><a href="icomponent.html" class="tsd-signature-type">IComponent</a><span class="tsd-signature-symbol">&lt;</span><span class="tsd-signature-type">TComponent</span><span class="tsd-signature-symbol">&gt;</span><span class="tsd-signature-symbol"> | </span><span class="tsd-signature-type">null</span></li>
+					</ul>
+					<ul class="tsd-descriptions">
+						<li class="tsd-description">
+							<aside class="tsd-sources">
+								<ul>
+									<li>Defined in minecraft-scripting-types-server/types/server_system_components.generated.d.ts:33</li>
+								</ul>
+							</aside>
+							<h4 class="tsd-parameters-title">Parameters</h4>
+							<ul class="tsd-parameters">
+								<li>
+									<h5>entity: <a href="ientity.html" class="tsd-signature-type">IEntity</a></h5>
+								</li>
+								<li>
+									<h5>componentName: <a href="../enums/minecraftcomponent.html#armorcontainer" class="tsd-signature-type">ArmorContainer</a></h5>
+								</li>
+							</ul>
+							<h4 class="tsd-returns-title">Returns <a href="icomponent.html" class="tsd-signature-type">IComponent</a><span class="tsd-signature-symbol">&lt;</span><a href="../globals.html#iarmorcontainercomponent" class="tsd-signature-type">IArmorContainerComponent</a><span class="tsd-signature-symbol">&gt;</span>
+								<span class="tsd-signature-symbol"> | </span>
+								<span class="tsd-signature-type">null</span>
+							</h4>
+						</li>
+						<li class="tsd-description">
+							<aside class="tsd-sources">
+								<ul>
+									<li>Defined in minecraft-scripting-types-server/types/server_system_components.generated.d.ts:34</li>
+								</ul>
+							</aside>
+							<h4 class="tsd-parameters-title">Parameters</h4>
+							<ul class="tsd-parameters">
+								<li>
+									<h5>entity: <a href="ientity.html" class="tsd-signature-type">IEntity</a></h5>
+								</li>
+								<li>
+									<h5>componentName: <a href="../enums/minecraftcomponent.html#attack" class="tsd-signature-type">Attack</a></h5>
+								</li>
+							</ul>
+							<h4 class="tsd-returns-title">Returns <a href="icomponent.html" class="tsd-signature-type">IComponent</a><span class="tsd-signature-symbol">&lt;</span><a href="iattackcomponent.html" class="tsd-signature-type">IAttackComponent</a><span class="tsd-signature-symbol">&gt;</span>
+								<span class="tsd-signature-symbol"> | </span>
+								<span class="tsd-signature-type">null</span>
+							</h4>
+						</li>
+						<li class="tsd-description">
+							<aside class="tsd-sources">
+								<ul>
+									<li>Defined in minecraft-scripting-types-server/types/server_system_components.generated.d.ts:35</li>
+								</ul>
+							</aside>
+							<h4 class="tsd-parameters-title">Parameters</h4>
+							<ul class="tsd-parameters">
+								<li>
+									<h5>entity: <a href="ientity.html" class="tsd-signature-type">IEntity</a></h5>
+								</li>
+								<li>
+									<h5>componentName: <a href="../enums/minecraftcomponent.html#collisionbox" class="tsd-signature-type">CollisionBox</a></h5>
+								</li>
+							</ul>
+							<h4 class="tsd-returns-title">Returns <a href="icomponent.html" class="tsd-signature-type">IComponent</a><span class="tsd-signature-symbol">&lt;</span><a href="icollisionboxcomponent.html" class="tsd-signature-type">ICollisionBoxComponent</a><span class="tsd-signature-symbol">&gt;</span>
+								<span class="tsd-signature-symbol"> | </span>
+								<span class="tsd-signature-type">null</span>
+							</h4>
+						</li>
+						<li class="tsd-description">
+							<aside class="tsd-sources">
+								<ul>
+									<li>Defined in minecraft-scripting-types-server/types/server_system_components.generated.d.ts:36</li>
+								</ul>
+							</aside>
+							<h4 class="tsd-parameters-title">Parameters</h4>
+							<ul class="tsd-parameters">
+								<li>
+									<h5>entity: <a href="ientity.html" class="tsd-signature-type">IEntity</a></h5>
+								</li>
+								<li>
+									<h5>componentName: <a href="../enums/minecraftcomponent.html#damagesensor" class="tsd-signature-type">DamageSensor</a></h5>
+								</li>
+							</ul>
+							<h4 class="tsd-returns-title">Returns <a href="icomponent.html" class="tsd-signature-type">IComponent</a><span class="tsd-signature-symbol">&lt;</span><a href="idamagesensorcomponent.html" class="tsd-signature-type">IDamageSensorComponent</a><span class="tsd-signature-symbol">&gt;</span>
+								<span class="tsd-signature-symbol"> | </span>
+								<span class="tsd-signature-type">null</span>
+							</h4>
+						</li>
+						<li class="tsd-description">
+							<aside class="tsd-sources">
+								<ul>
+									<li>Defined in minecraft-scripting-types-server/types/server_system_components.generated.d.ts:37</li>
+								</ul>
+							</aside>
+							<h4 class="tsd-parameters-title">Parameters</h4>
+							<ul class="tsd-parameters">
+								<li>
+									<h5>entity: <a href="ientity.html" class="tsd-signature-type">IEntity</a></h5>
+								</li>
+								<li>
+									<h5>componentName: <a href="../enums/minecraftcomponent.html#equipment" class="tsd-signature-type">Equipment</a></h5>
+								</li>
+							</ul>
+							<h4 class="tsd-returns-title">Returns <a href="icomponent.html" class="tsd-signature-type">IComponent</a><span class="tsd-signature-symbol">&lt;</span><a href="iequipmentcomponent.html" class="tsd-signature-type">IEquipmentComponent</a><span class="tsd-signature-symbol">&gt;</span>
+								<span class="tsd-signature-symbol"> | </span>
+								<span class="tsd-signature-type">null</span>
+							</h4>
+						</li>
+						<li class="tsd-description">
+							<aside class="tsd-sources">
+								<ul>
+									<li>Defined in minecraft-scripting-types-server/types/server_system_components.generated.d.ts:38</li>
+								</ul>
+							</aside>
+							<h4 class="tsd-parameters-title">Parameters</h4>
+							<ul class="tsd-parameters">
+								<li>
+									<h5>entity: <a href="ientity.html" class="tsd-signature-type">IEntity</a></h5>
+								</li>
+								<li>
+									<h5>componentName: <a href="../enums/minecraftcomponent.html#equippable" class="tsd-signature-type">Equippable</a></h5>
+								</li>
+							</ul>
+							<h4 class="tsd-returns-title">Returns <a href="icomponent.html" class="tsd-signature-type">IComponent</a><span class="tsd-signature-symbol">&lt;</span><a href="iequippablecomponent.html" class="tsd-signature-type">IEquippableComponent</a><span class="tsd-signature-symbol">&gt;</span>
+								<span class="tsd-signature-symbol"> | </span>
+								<span class="tsd-signature-type">null</span>
+							</h4>
+						</li>
+						<li class="tsd-description">
+							<aside class="tsd-sources">
+								<ul>
+									<li>Defined in minecraft-scripting-types-server/types/server_system_components.generated.d.ts:39</li>
+								</ul>
+							</aside>
+							<h4 class="tsd-parameters-title">Parameters</h4>
+							<ul class="tsd-parameters">
+								<li>
+									<h5>entity: <a href="ientity.html" class="tsd-signature-type">IEntity</a></h5>
+								</li>
+								<li>
+									<h5>componentName: <a href="../enums/minecraftcomponent.html#explode" class="tsd-signature-type">Explode</a></h5>
+								</li>
+							</ul>
+							<h4 class="tsd-returns-title">Returns <a href="icomponent.html" class="tsd-signature-type">IComponent</a><span class="tsd-signature-symbol">&lt;</span><a href="iexplodecomponent.html" class="tsd-signature-type">IExplodeComponent</a><span class="tsd-signature-symbol">&gt;</span>
+								<span class="tsd-signature-symbol"> | </span>
+								<span class="tsd-signature-type">null</span>
+							</h4>
+						</li>
+						<li class="tsd-description">
+							<aside class="tsd-sources">
+								<ul>
+									<li>Defined in minecraft-scripting-types-server/types/server_system_components.generated.d.ts:40</li>
+								</ul>
+							</aside>
+							<h4 class="tsd-parameters-title">Parameters</h4>
+							<ul class="tsd-parameters">
+								<li>
+									<h5>entity: <a href="ientity.html" class="tsd-signature-type">IEntity</a></h5>
+								</li>
+								<li>
+									<h5>componentName: <a href="../enums/minecraftcomponent.html#handcontainer" class="tsd-signature-type">HandContainer</a></h5>
+								</li>
+							</ul>
+							<h4 class="tsd-returns-title">Returns <a href="icomponent.html" class="tsd-signature-type">IComponent</a><span class="tsd-signature-symbol">&lt;</span><a href="../globals.html#ihandcontainercomponent" class="tsd-signature-type">IHandContainerComponent</a><span class="tsd-signature-symbol">&gt;</span>
+								<span class="tsd-signature-symbol"> | </span>
+								<span class="tsd-signature-type">null</span>
+							</h4>
+						</li>
+						<li class="tsd-description">
+							<aside class="tsd-sources">
+								<ul>
+									<li>Defined in minecraft-scripting-types-server/types/server_system_components.generated.d.ts:41</li>
+								</ul>
+							</aside>
+							<h4 class="tsd-parameters-title">Parameters</h4>
+							<ul class="tsd-parameters">
+								<li>
+									<h5>entity: <a href="ientity.html" class="tsd-signature-type">IEntity</a></h5>
+								</li>
+								<li>
+									<h5>componentName: <a href="../enums/minecraftcomponent.html#healable" class="tsd-signature-type">Healable</a></h5>
+								</li>
+							</ul>
+							<h4 class="tsd-returns-title">Returns <a href="icomponent.html" class="tsd-signature-type">IComponent</a><span class="tsd-signature-symbol">&lt;</span><a href="ihealablecomponent.html" class="tsd-signature-type">IHealableComponent</a><span class="tsd-signature-symbol">&gt;</span>
+								<span class="tsd-signature-symbol"> | </span>
+								<span class="tsd-signature-type">null</span>
+							</h4>
+						</li>
+						<li class="tsd-description">
+							<aside class="tsd-sources">
+								<ul>
+									<li>Defined in minecraft-scripting-types-server/types/server_system_components.generated.d.ts:42</li>
+								</ul>
+							</aside>
+							<h4 class="tsd-parameters-title">Parameters</h4>
+							<ul class="tsd-parameters">
+								<li>
+									<h5>entity: <a href="ientity.html" class="tsd-signature-type">IEntity</a></h5>
+								</li>
+								<li>
+									<h5>componentName: <a href="../enums/minecraftcomponent.html#health" class="tsd-signature-type">Health</a></h5>
+								</li>
+							</ul>
+							<h4 class="tsd-returns-title">Returns <a href="icomponent.html" class="tsd-signature-type">IComponent</a><span class="tsd-signature-symbol">&lt;</span><a href="ihealthcomponent.html" class="tsd-signature-type">IHealthComponent</a><span class="tsd-signature-symbol">&gt;</span>
+								<span class="tsd-signature-symbol"> | </span>
+								<span class="tsd-signature-type">null</span>
+							</h4>
+						</li>
+						<li class="tsd-description">
+							<aside class="tsd-sources">
+								<ul>
+									<li>Defined in minecraft-scripting-types-server/types/server_system_components.generated.d.ts:43</li>
+								</ul>
+							</aside>
+							<h4 class="tsd-parameters-title">Parameters</h4>
+							<ul class="tsd-parameters">
+								<li>
+									<h5>entity: <a href="ientity.html" class="tsd-signature-type">IEntity</a></h5>
+								</li>
+								<li>
+									<h5>componentName: <a href="../enums/minecraftcomponent.html#hotbarcontainer" class="tsd-signature-type">HotbarContainer</a></h5>
+								</li>
+							</ul>
+							<h4 class="tsd-returns-title">Returns <a href="icomponent.html" class="tsd-signature-type">IComponent</a><span class="tsd-signature-symbol">&lt;</span><a href="../globals.html#ihotbarcontainercomponent" class="tsd-signature-type">IHotbarContainerComponent</a><span class="tsd-signature-symbol">&gt;</span>
+								<span class="tsd-signature-symbol"> | </span>
+								<span class="tsd-signature-type">null</span>
+							</h4>
+						</li>
+						<li class="tsd-description">
+							<aside class="tsd-sources">
+								<ul>
+									<li>Defined in minecraft-scripting-types-server/types/server_system_components.generated.d.ts:44</li>
+								</ul>
+							</aside>
+							<h4 class="tsd-parameters-title">Parameters</h4>
+							<ul class="tsd-parameters">
+								<li>
+									<h5>entity: <a href="ientity.html" class="tsd-signature-type">IEntity</a></h5>
+								</li>
+								<li>
+									<h5>componentName: <a href="../enums/minecraftcomponent.html#interact" class="tsd-signature-type">Interact</a></h5>
+								</li>
+							</ul>
+							<h4 class="tsd-returns-title">Returns <a href="icomponent.html" class="tsd-signature-type">IComponent</a><span class="tsd-signature-symbol">&lt;</span><a href="iinteractcomponent.html" class="tsd-signature-type">IInteractComponent</a><span class="tsd-signature-symbol">&gt;</span>
+								<span class="tsd-signature-symbol"> | </span>
+								<span class="tsd-signature-type">null</span>
+							</h4>
+						</li>
+						<li class="tsd-description">
+							<aside class="tsd-sources">
+								<ul>
+									<li>Defined in minecraft-scripting-types-server/types/server_system_components.generated.d.ts:45</li>
+								</ul>
+							</aside>
+							<h4 class="tsd-parameters-title">Parameters</h4>
+							<ul class="tsd-parameters">
+								<li>
+									<h5>entity: <a href="ientity.html" class="tsd-signature-type">IEntity</a></h5>
+								</li>
+								<li>
+									<h5>componentName: <a href="../enums/minecraftcomponent.html#inventory" class="tsd-signature-type">Inventory</a></h5>
+								</li>
+							</ul>
+							<h4 class="tsd-returns-title">Returns <a href="icomponent.html" class="tsd-signature-type">IComponent</a><span class="tsd-signature-symbol">&lt;</span><a href="iinventorycomponent.html" class="tsd-signature-type">IInventoryComponent</a><span class="tsd-signature-symbol">&gt;</span>
+								<span class="tsd-signature-symbol"> | </span>
+								<span class="tsd-signature-type">null</span>
+							</h4>
+						</li>
+						<li class="tsd-description">
+							<aside class="tsd-sources">
+								<ul>
+									<li>Defined in minecraft-scripting-types-server/types/server_system_components.generated.d.ts:46</li>
+								</ul>
+							</aside>
+							<h4 class="tsd-parameters-title">Parameters</h4>
+							<ul class="tsd-parameters">
+								<li>
+									<h5>entity: <a href="ientity.html" class="tsd-signature-type">IEntity</a></h5>
+								</li>
+								<li>
+									<h5>componentName: <a href="../enums/minecraftcomponent.html#inventorycontainer" class="tsd-signature-type">InventoryContainer</a></h5>
+								</li>
+							</ul>
+							<h4 class="tsd-returns-title">Returns <a href="icomponent.html" class="tsd-signature-type">IComponent</a><span class="tsd-signature-symbol">&lt;</span><a href="../globals.html#iinventorycontainercomponent" class="tsd-signature-type">IInventoryContainerComponent</a><span class="tsd-signature-symbol">&gt;</span>
+								<span class="tsd-signature-symbol"> | </span>
+								<span class="tsd-signature-type">null</span>
+							</h4>
+						</li>
+						<li class="tsd-description">
+							<aside class="tsd-sources">
+								<ul>
+									<li>Defined in minecraft-scripting-types-server/types/server_system_components.generated.d.ts:47</li>
+								</ul>
+							</aside>
+							<h4 class="tsd-parameters-title">Parameters</h4>
+							<ul class="tsd-parameters">
+								<li>
+									<h5>entity: <a href="ientity.html" class="tsd-signature-type">IEntity</a></h5>
+								</li>
+								<li>
+									<h5>componentName: <a href="../enums/minecraftcomponent.html#lookat" class="tsd-signature-type">LookAt</a></h5>
+								</li>
+							</ul>
+							<h4 class="tsd-returns-title">Returns <a href="icomponent.html" class="tsd-signature-type">IComponent</a><span class="tsd-signature-symbol">&lt;</span><a href="ilookatcomponent.html" class="tsd-signature-type">ILookAtComponent</a><span class="tsd-signature-symbol">&gt;</span>
+								<span class="tsd-signature-symbol"> | </span>
+								<span class="tsd-signature-type">null</span>
+							</h4>
+						</li>
+						<li class="tsd-description">
+							<aside class="tsd-sources">
+								<ul>
+									<li>Defined in minecraft-scripting-types-server/types/server_system_components.generated.d.ts:48</li>
+								</ul>
+							</aside>
+							<h4 class="tsd-parameters-title">Parameters</h4>
+							<ul class="tsd-parameters">
+								<li>
+									<h5>entity: <a href="ientity.html" class="tsd-signature-type">IEntity</a></h5>
+								</li>
+								<li>
+									<h5>componentName: <a href="../enums/minecraftcomponent.html#nameable" class="tsd-signature-type">Nameable</a></h5>
+								</li>
+							</ul>
+							<h4 class="tsd-returns-title">Returns <a href="icomponent.html" class="tsd-signature-type">IComponent</a><span class="tsd-signature-symbol">&lt;</span><a href="inameablecomponent.html" class="tsd-signature-type">INameableComponent</a><span class="tsd-signature-symbol">&gt;</span>
+								<span class="tsd-signature-symbol"> | </span>
+								<span class="tsd-signature-type">null</span>
+							</h4>
+						</li>
+						<li class="tsd-description">
+							<aside class="tsd-sources">
+								<ul>
+									<li>Defined in minecraft-scripting-types-server/types/server_system_components.generated.d.ts:49</li>
+								</ul>
+							</aside>
+							<h4 class="tsd-parameters-title">Parameters</h4>
+							<ul class="tsd-parameters">
+								<li>
+									<h5>entity: <a href="ientity.html" class="tsd-signature-type">IEntity</a></h5>
+								</li>
+								<li>
+									<h5>componentName: <a href="../enums/minecraftcomponent.html#position" class="tsd-signature-type">Position</a></h5>
+								</li>
+							</ul>
+							<h4 class="tsd-returns-title">Returns <a href="icomponent.html" class="tsd-signature-type">IComponent</a><span class="tsd-signature-symbol">&lt;</span><a href="ipositioncomponent.html" class="tsd-signature-type">IPositionComponent</a><span class="tsd-signature-symbol">&gt;</span>
+								<span class="tsd-signature-symbol"> | </span>
+								<span class="tsd-signature-type">null</span>
+							</h4>
+						</li>
+						<li class="tsd-description">
+							<aside class="tsd-sources">
+								<ul>
+									<li>Defined in minecraft-scripting-types-server/types/server_system_components.generated.d.ts:50</li>
+								</ul>
+							</aside>
+							<h4 class="tsd-parameters-title">Parameters</h4>
+							<ul class="tsd-parameters">
+								<li>
+									<h5>entity: <a href="ientity.html" class="tsd-signature-type">IEntity</a></h5>
+								</li>
+								<li>
+									<h5>componentName: <a href="../enums/minecraftcomponent.html#rotation" class="tsd-signature-type">Rotation</a></h5>
+								</li>
+							</ul>
+							<h4 class="tsd-returns-title">Returns <a href="icomponent.html" class="tsd-signature-type">IComponent</a><span class="tsd-signature-symbol">&lt;</span><a href="irotationcomponent.html" class="tsd-signature-type">IRotationComponent</a><span class="tsd-signature-symbol">&gt;</span>
+								<span class="tsd-signature-symbol"> | </span>
+								<span class="tsd-signature-type">null</span>
+							</h4>
+						</li>
+						<li class="tsd-description">
+							<aside class="tsd-sources">
+								<ul>
+									<li>Defined in minecraft-scripting-types-server/types/server_system_components.generated.d.ts:51</li>
+								</ul>
+							</aside>
+							<h4 class="tsd-parameters-title">Parameters</h4>
+							<ul class="tsd-parameters">
+								<li>
+									<h5>entity: <a href="ientity.html" class="tsd-signature-type">IEntity</a></h5>
+								</li>
+								<li>
+									<h5>componentName: <a href="../enums/minecraftcomponent.html#shooter" class="tsd-signature-type">Shooter</a></h5>
+								</li>
+							</ul>
+							<h4 class="tsd-returns-title">Returns <a href="icomponent.html" class="tsd-signature-type">IComponent</a><span class="tsd-signature-symbol">&lt;</span><a href="ishootercomponent.html" class="tsd-signature-type">IShooterComponent</a><span class="tsd-signature-symbol">&gt;</span>
+								<span class="tsd-signature-symbol"> | </span>
+								<span class="tsd-signature-type">null</span>
+							</h4>
+						</li>
+						<li class="tsd-description">
+							<aside class="tsd-sources">
+								<ul>
+									<li>Defined in minecraft-scripting-types-server/types/server_system_components.generated.d.ts:52</li>
+								</ul>
+							</aside>
+							<h4 class="tsd-parameters-title">Parameters</h4>
+							<ul class="tsd-parameters">
+								<li>
+									<h5>entity: <a href="ientity.html" class="tsd-signature-type">IEntity</a></h5>
+								</li>
+								<li>
+									<h5>componentName: <a href="../enums/minecraftcomponent.html#spawnentity" class="tsd-signature-type">SpawnEntity</a></h5>
+								</li>
+							</ul>
+							<h4 class="tsd-returns-title">Returns <a href="icomponent.html" class="tsd-signature-type">IComponent</a><span class="tsd-signature-symbol">&lt;</span><a href="ispawnentitycomponent.html" class="tsd-signature-type">ISpawnEntityComponent</a><span class="tsd-signature-symbol">&gt;</span>
+								<span class="tsd-signature-symbol"> | </span>
+								<span class="tsd-signature-type">null</span>
+							</h4>
+						</li>
+						<li class="tsd-description">
+							<aside class="tsd-sources">
+								<ul>
+									<li>Defined in minecraft-scripting-types-server/types/server_system_components.generated.d.ts:53</li>
+								</ul>
+							</aside>
+							<h4 class="tsd-parameters-title">Parameters</h4>
+							<ul class="tsd-parameters">
+								<li>
+									<h5>entity: <a href="ientity.html" class="tsd-signature-type">IEntity</a></h5>
+								</li>
+								<li>
+									<h5>componentName: <a href="../enums/minecraftcomponent.html#teleport" class="tsd-signature-type">Teleport</a></h5>
+								</li>
+							</ul>
+							<h4 class="tsd-returns-title">Returns <a href="icomponent.html" class="tsd-signature-type">IComponent</a><span class="tsd-signature-symbol">&lt;</span><a href="iteleportcomponent.html" class="tsd-signature-type">ITeleportComponent</a><span class="tsd-signature-symbol">&gt;</span>
+								<span class="tsd-signature-symbol"> | </span>
+								<span class="tsd-signature-type">null</span>
+							</h4>
+						</li>
+						<li class="tsd-description">
+							<aside class="tsd-sources">
+								<ul>
+									<li>Defined in minecraft-scripting-types-server/types/server_system_components.generated.d.ts:54</li>
+								</ul>
+							</aside>
+							<h4 class="tsd-parameters-title">Parameters</h4>
+							<ul class="tsd-parameters">
+								<li>
+									<h5>entity: <a href="ientity.html" class="tsd-signature-type">IEntity</a></h5>
+								</li>
+								<li>
+									<h5>componentName: <a href="../enums/minecraftcomponent.html#tickworld" class="tsd-signature-type">TickWorld</a></h5>
+								</li>
+							</ul>
+							<h4 class="tsd-returns-title">Returns <a href="icomponent.html" class="tsd-signature-type">IComponent</a><span class="tsd-signature-symbol">&lt;</span><a href="itickworldcomponent.html" class="tsd-signature-type">ITickWorldComponent</a><span class="tsd-signature-symbol">&gt;</span>
+								<span class="tsd-signature-symbol"> | </span>
+								<span class="tsd-signature-type">null</span>
+							</h4>
+						</li>
+						<li class="tsd-description">
+							<aside class="tsd-sources">
+								<ul>
+									<li>Defined in minecraft-scripting-types-server/types/server_system_components.generated.d.ts:71</li>
+								</ul>
+							</aside>
+							<div class="tsd-comment tsd-typography">
+								<div class="lead">
+									<p>Looks for the specified component in the entity. If it exists, retrieves the data from the component and returns it.</p>
+								</div>
+							</div>
+							<h4 class="tsd-type-parameters-title">Type parameters</h4>
+							<ul class="tsd-type-parameters">
+								<li>
+									<h4>TComponent</h4>
+								</li>
+							</ul>
+							<h4 class="tsd-parameters-title">Parameters</h4>
+							<ul class="tsd-parameters">
+								<li>
+									<h5>entity: <a href="ientity.html" class="tsd-signature-type">IEntity</a></h5>
+									<div class="tsd-comment tsd-typography">
+										<p>The EntityObject that was retrieved from a call to createEntity() or retrieved from an event</p>
+									</div>
+								</li>
+								<li>
+									<h5>componentIdentifier: <span class="tsd-signature-type">MinecraftComponent</span><span class="tsd-signature-symbol"> | </span><span class="tsd-signature-type">string</span></h5>
+									<div class="tsd-comment tsd-typography">
+										<p>The name of the component to retrieve from the entity. This is either the name of a built-in component (check the Script Components section) or a custom component created with a call to registerComponent()</p>
+									</div>
+								</li>
+							</ul>
+							<h4 class="tsd-returns-title">Returns <a href="icomponent.html" class="tsd-signature-type">IComponent</a><span class="tsd-signature-symbol">&lt;</span><span class="tsd-signature-type">TComponent</span><span class="tsd-signature-symbol">&gt;</span>
+								<span class="tsd-signature-symbol"> | </span>
+								<span class="tsd-signature-type">null</span>
+							</h4>
+							<p>An object containing the data of the component as described in the component itself, or null if the entity did not have the component or something went wrong when getting the component</p>
+						</li>
+					</ul>
+				</section>
+				<section class="tsd-panel tsd-member tsd-kind-method tsd-parent-kind-interface tsd-has-type-parameter tsd-is-external tsd-is-not-exported">
+					<a name="listenforevent" class="tsd-anchor"></a>
+					<h3>listen<wbr>For<wbr>Event</h3>
+					<ul class="tsd-signatures tsd-kind-method tsd-parent-kind-interface tsd-has-type-parameter tsd-is-external tsd-is-not-exported">
+						<li class="tsd-signature tsd-kind-icon">listen<wbr>For<wbr>Event<span class="tsd-signature-symbol">(</span>eventIdentifier<span class="tsd-signature-symbol">: </span><a href="../enums/receivefromminecraftserver.html#blockdestructionstarted" class="tsd-signature-type">BlockDestructionStarted</a>, callback<span class="tsd-signature-symbol">: </span><span class="tsd-signature-type">function</span><span class="tsd-signature-symbol">)</span><span class="tsd-signature-symbol">: </span><span class="tsd-signature-type">boolean</span><span class="tsd-signature-symbol"> | </span><span class="tsd-signature-type">null</span></li>
+						<li class="tsd-signature tsd-kind-icon">listen<wbr>For<wbr>Event<span class="tsd-signature-symbol">(</span>eventIdentifier<span class="tsd-signature-symbol">: </span><a href="../enums/receivefromminecraftserver.html#blockdestructionstopped" class="tsd-signature-type">BlockDestructionStopped</a>, callback<span class="tsd-signature-symbol">: </span><span class="tsd-signature-type">function</span><span class="tsd-signature-symbol">)</span><span class="tsd-signature-symbol">: </span><span class="tsd-signature-type">boolean</span><span class="tsd-signature-symbol"> | </span><span class="tsd-signature-type">null</span></li>
+						<li class="tsd-signature tsd-kind-icon">listen<wbr>For<wbr>Event<span class="tsd-signature-symbol">(</span>eventIdentifier<span class="tsd-signature-symbol">: </span><a href="../enums/receivefromminecraftserver.html#blockinteractedwith" class="tsd-signature-type">BlockInteractedWith</a>, callback<span class="tsd-signature-symbol">: </span><span class="tsd-signature-type">function</span><span class="tsd-signature-symbol">)</span><span class="tsd-signature-symbol">: </span><span class="tsd-signature-type">boolean</span><span class="tsd-signature-symbol"> | </span><span class="tsd-signature-type">null</span></li>
+						<li class="tsd-signature tsd-kind-icon">listen<wbr>For<wbr>Event<span class="tsd-signature-symbol">(</span>eventIdentifier<span class="tsd-signature-symbol">: </span><a href="../enums/receivefromminecraftserver.html#entityacquireditem" class="tsd-signature-type">EntityAcquiredItem</a>, callback<span class="tsd-signature-symbol">: </span><span class="tsd-signature-type">function</span><span class="tsd-signature-symbol">)</span><span class="tsd-signature-symbol">: </span><span class="tsd-signature-type">boolean</span><span class="tsd-signature-symbol"> | </span><span class="tsd-signature-type">null</span></li>
+						<li class="tsd-signature tsd-kind-icon">listen<wbr>For<wbr>Event<span class="tsd-signature-symbol">(</span>eventIdentifier<span class="tsd-signature-symbol">: </span><a href="../enums/receivefromminecraftserver.html#entitycarrieditemchanged" class="tsd-signature-type">EntityCarriedItemChanged</a>, callback<span class="tsd-signature-symbol">: </span><span class="tsd-signature-type">function</span><span class="tsd-signature-symbol">)</span><span class="tsd-signature-symbol">: </span><span class="tsd-signature-type">boolean</span><span class="tsd-signature-symbol"> | </span><span class="tsd-signature-type">null</span></li>
+						<li class="tsd-signature tsd-kind-icon">listen<wbr>For<wbr>Event<span class="tsd-signature-symbol">(</span>eventIdentifier<span class="tsd-signature-symbol">: </span><a href="../enums/receivefromminecraftserver.html#entitycreated" class="tsd-signature-type">EntityCreated</a>, callback<span class="tsd-signature-symbol">: </span><span class="tsd-signature-type">function</span><span class="tsd-signature-symbol">)</span><span class="tsd-signature-symbol">: </span><span class="tsd-signature-type">boolean</span><span class="tsd-signature-symbol"> | </span><span class="tsd-signature-type">null</span></li>
+						<li class="tsd-signature tsd-kind-icon">listen<wbr>For<wbr>Event<span class="tsd-signature-symbol">(</span>eventIdentifier<span class="tsd-signature-symbol">: </span><a href="../enums/receivefromminecraftserver.html#entitydeath" class="tsd-signature-type">EntityDeath</a>, callback<span class="tsd-signature-symbol">: </span><span class="tsd-signature-type">function</span><span class="tsd-signature-symbol">)</span><span class="tsd-signature-symbol">: </span><span class="tsd-signature-type">boolean</span><span class="tsd-signature-symbol"> | </span><span class="tsd-signature-type">null</span></li>
+						<li class="tsd-signature tsd-kind-icon">listen<wbr>For<wbr>Event<span class="tsd-signature-symbol">(</span>eventIdentifier<span class="tsd-signature-symbol">: </span><a href="../enums/receivefromminecraftserver.html#entitydroppeditem" class="tsd-signature-type">EntityDroppedItem</a>, callback<span class="tsd-signature-symbol">: </span><span class="tsd-signature-type">function</span><span class="tsd-signature-symbol">)</span><span class="tsd-signature-symbol">: </span><span class="tsd-signature-type">boolean</span><span class="tsd-signature-symbol"> | </span><span class="tsd-signature-type">null</span></li>
+						<li class="tsd-signature tsd-kind-icon">listen<wbr>For<wbr>Event<span class="tsd-signature-symbol">(</span>eventIdentifier<span class="tsd-signature-symbol">: </span><a href="../enums/receivefromminecraftserver.html#entityequippedarmor" class="tsd-signature-type">EntityEquippedArmor</a>, callback<span class="tsd-signature-symbol">: </span><span class="tsd-signature-type">function</span><span class="tsd-signature-symbol">)</span><span class="tsd-signature-symbol">: </span><span class="tsd-signature-type">boolean</span><span class="tsd-signature-symbol"> | </span><span class="tsd-signature-type">null</span></li>
+						<li class="tsd-signature tsd-kind-icon">listen<wbr>For<wbr>Event<span class="tsd-signature-symbol">(</span>eventIdentifier<span class="tsd-signature-symbol">: </span><a href="../enums/receivefromminecraftserver.html#entitystartriding" class="tsd-signature-type">EntityStartRiding</a>, callback<span class="tsd-signature-symbol">: </span><span class="tsd-signature-type">function</span><span class="tsd-signature-symbol">)</span><span class="tsd-signature-symbol">: </span><span class="tsd-signature-type">boolean</span><span class="tsd-signature-symbol"> | </span><span class="tsd-signature-type">null</span></li>
+						<li class="tsd-signature tsd-kind-icon">listen<wbr>For<wbr>Event<span class="tsd-signature-symbol">(</span>eventIdentifier<span class="tsd-signature-symbol">: </span><a href="../enums/receivefromminecraftserver.html#entitystopriding" class="tsd-signature-type">EntityStopRiding</a>, callback<span class="tsd-signature-symbol">: </span><span class="tsd-signature-type">function</span><span class="tsd-signature-symbol">)</span><span class="tsd-signature-symbol">: </span><span class="tsd-signature-type">boolean</span><span class="tsd-signature-symbol"> | </span><span class="tsd-signature-type">null</span></li>
+						<li class="tsd-signature tsd-kind-icon">listen<wbr>For<wbr>Event<span class="tsd-signature-symbol">(</span>eventIdentifier<span class="tsd-signature-symbol">: </span><a href="../enums/receivefromminecraftserver.html#entitytick" class="tsd-signature-type">EntityTick</a>, callback<span class="tsd-signature-symbol">: </span><span class="tsd-signature-type">function</span><span class="tsd-signature-symbol">)</span><span class="tsd-signature-symbol">: </span><span class="tsd-signature-type">boolean</span><span class="tsd-signature-symbol"> | </span><span class="tsd-signature-type">null</span></li>
+						<li class="tsd-signature tsd-kind-icon">listen<wbr>For<wbr>Event<span class="tsd-signature-symbol">(</span>eventIdentifier<span class="tsd-signature-symbol">: </span><a href="../enums/receivefromminecraftserver.html#entityuseitem" class="tsd-signature-type">EntityUseItem</a>, callback<span class="tsd-signature-symbol">: </span><span class="tsd-signature-type">function</span><span class="tsd-signature-symbol">)</span><span class="tsd-signature-symbol">: </span><span class="tsd-signature-type">boolean</span><span class="tsd-signature-symbol"> | </span><span class="tsd-signature-type">null</span></li>
+						<li class="tsd-signature tsd-kind-icon">listen<wbr>For<wbr>Event<span class="tsd-signature-symbol">(</span>eventIdentifier<span class="tsd-signature-symbol">: </span><a href="../enums/receivefromminecraftserver.html#pistonmovedblock" class="tsd-signature-type">PistonMovedBlock</a>, callback<span class="tsd-signature-symbol">: </span><span class="tsd-signature-type">function</span><span class="tsd-signature-symbol">)</span><span class="tsd-signature-symbol">: </span><span class="tsd-signature-type">boolean</span><span class="tsd-signature-symbol"> | </span><span class="tsd-signature-type">null</span></li>
+						<li class="tsd-signature tsd-kind-icon">listen<wbr>For<wbr>Event<span class="tsd-signature-symbol">(</span>eventIdentifier<span class="tsd-signature-symbol">: </span><a href="../enums/receivefromminecraftserver.html#playsound" class="tsd-signature-type">PlaySound</a>, callback<span class="tsd-signature-symbol">: </span><span class="tsd-signature-type">function</span><span class="tsd-signature-symbol">)</span><span class="tsd-signature-symbol">: </span><span class="tsd-signature-type">boolean</span><span class="tsd-signature-symbol"> | </span><span class="tsd-signature-type">null</span></li>
+						<li class="tsd-signature tsd-kind-icon">listen<wbr>For<wbr>Event<span class="tsd-signature-symbol">(</span>eventIdentifier<span class="tsd-signature-symbol">: </span><a href="../enums/receivefromminecraftserver.html#playerattackedentity" class="tsd-signature-type">PlayerAttackedEntity</a>, callback<span class="tsd-signature-symbol">: </span><span class="tsd-signature-type">function</span><span class="tsd-signature-symbol">)</span><span class="tsd-signature-symbol">: </span><span class="tsd-signature-type">boolean</span><span class="tsd-signature-symbol"> | </span><span class="tsd-signature-type">null</span></li>
+						<li class="tsd-signature tsd-kind-icon">listen<wbr>For<wbr>Event<span class="tsd-signature-symbol">(</span>eventIdentifier<span class="tsd-signature-symbol">: </span><a href="../enums/receivefromminecraftserver.html#playerdestroyedblock" class="tsd-signature-type">PlayerDestroyedBlock</a>, callback<span class="tsd-signature-symbol">: </span><span class="tsd-signature-type">function</span><span class="tsd-signature-symbol">)</span><span class="tsd-signature-symbol">: </span><span class="tsd-signature-type">boolean</span><span class="tsd-signature-symbol"> | </span><span class="tsd-signature-type">null</span></li>
+						<li class="tsd-signature tsd-kind-icon">listen<wbr>For<wbr>Event<span class="tsd-signature-symbol">(</span>eventIdentifier<span class="tsd-signature-symbol">: </span><a href="../enums/receivefromminecraftserver.html#playerplacedblock" class="tsd-signature-type">PlayerPlacedBlock</a>, callback<span class="tsd-signature-symbol">: </span><span class="tsd-signature-type">function</span><span class="tsd-signature-symbol">)</span><span class="tsd-signature-symbol">: </span><span class="tsd-signature-type">boolean</span><span class="tsd-signature-symbol"> | </span><span class="tsd-signature-type">null</span></li>
+						<li class="tsd-signature tsd-kind-icon">listen<wbr>For<wbr>Event<span class="tsd-signature-symbol">(</span>eventIdentifier<span class="tsd-signature-symbol">: </span><a href="../enums/receivefromminecraftserver.html#weatherchanged" class="tsd-signature-type">WeatherChanged</a>, callback<span class="tsd-signature-symbol">: </span><span class="tsd-signature-type">function</span><span class="tsd-signature-symbol">)</span><span class="tsd-signature-symbol">: </span><span class="tsd-signature-type">boolean</span><span class="tsd-signature-symbol"> | </span><span class="tsd-signature-type">null</span></li>
+						<li class="tsd-signature tsd-kind-icon">listen<wbr>For<wbr>Event&lt;TEventDataType&gt;<span class="tsd-signature-symbol">(</span>eventIdentifier<span class="tsd-signature-symbol">: </span><span class="tsd-signature-type">string</span>, callback<span class="tsd-signature-symbol">: </span><span class="tsd-signature-type">function</span><span class="tsd-signature-symbol">)</span><span class="tsd-signature-symbol">: </span><span class="tsd-signature-type">boolean</span><span class="tsd-signature-symbol"> | </span><span class="tsd-signature-type">null</span></li>
+					</ul>
+					<ul class="tsd-descriptions">
+						<li class="tsd-description">
+							<aside class="tsd-sources">
+								<ul>
+									<li>Defined in minecraft-scripting-types-server/types/server_system_events.generated.d.ts:71</li>
+								</ul>
+							</aside>
+							<div class="tsd-comment tsd-typography">
+								<div class="lead">
+									<p>This event is triggered whenever a player starts to destroy a block.</p>
+								</div>
+							</div>
+							<h4 class="tsd-parameters-title">Parameters</h4>
+							<ul class="tsd-parameters">
+								<li>
+									<h5>eventIdentifier: <a href="../enums/receivefromminecraftserver.html#blockdestructionstarted" class="tsd-signature-type">BlockDestructionStarted</a></h5>
+								</li>
+								<li>
+									<h5>callback: <span class="tsd-signature-type">function</span></h5>
+									<ul class="tsd-parameters">
+										<li class="tsd-parameter-siganture">
+											<ul class="tsd-signatures tsd-kind-type-literal tsd-is-not-exported">
+												<li class="tsd-signature tsd-kind-icon"><span class="tsd-signature-symbol">(</span>eventData<span class="tsd-signature-symbol">: </span><a href="ieventdata.html" class="tsd-signature-type">IEventData</a><span class="tsd-signature-symbol">&lt;</span><a href="iblockdestructionstartedeventdata.html" class="tsd-signature-type">IBlockDestructionStartedEventData</a><span class="tsd-signature-symbol">&gt;</span><span class="tsd-signature-symbol">)</span><span class="tsd-signature-symbol">: </span><span class="tsd-signature-type">void</span></li>
+											</ul>
+											<ul class="tsd-descriptions">
+												<li class="tsd-description">
+													<h4 class="tsd-parameters-title">Parameters</h4>
+													<ul class="tsd-parameters">
+														<li>
+															<h5>eventData: <a href="ieventdata.html" class="tsd-signature-type">IEventData</a><span class="tsd-signature-symbol">&lt;</span><a href="iblockdestructionstartedeventdata.html" class="tsd-signature-type">IBlockDestructionStartedEventData</a><span class="tsd-signature-symbol">&gt;</span></h5>
+														</li>
+													</ul>
+													<h4 class="tsd-returns-title">Returns <span class="tsd-signature-type">void</span></h4>
+												</li>
+											</ul>
+										</li>
+									</ul>
+								</li>
+							</ul>
+							<h4 class="tsd-returns-title">Returns <span class="tsd-signature-type">boolean</span>
+								<span class="tsd-signature-symbol"> | </span>
+								<span class="tsd-signature-type">null</span>
+							</h4>
+						</li>
+						<li class="tsd-description">
+							<aside class="tsd-sources">
+								<ul>
+									<li>Defined in minecraft-scripting-types-server/types/server_system_events.generated.d.ts:75</li>
+								</ul>
+							</aside>
+							<div class="tsd-comment tsd-typography">
+								<div class="lead">
+									<p>This event is triggered whenever a player stops destroying a block.</p>
+								</div>
+							</div>
+							<h4 class="tsd-parameters-title">Parameters</h4>
+							<ul class="tsd-parameters">
+								<li>
+									<h5>eventIdentifier: <a href="../enums/receivefromminecraftserver.html#blockdestructionstopped" class="tsd-signature-type">BlockDestructionStopped</a></h5>
+								</li>
+								<li>
+									<h5>callback: <span class="tsd-signature-type">function</span></h5>
+									<ul class="tsd-parameters">
+										<li class="tsd-parameter-siganture">
+											<ul class="tsd-signatures tsd-kind-type-literal tsd-is-not-exported">
+												<li class="tsd-signature tsd-kind-icon"><span class="tsd-signature-symbol">(</span>eventData<span class="tsd-signature-symbol">: </span><a href="ieventdata.html" class="tsd-signature-type">IEventData</a><span class="tsd-signature-symbol">&lt;</span><a href="iblockdestructionstoppedeventdata.html" class="tsd-signature-type">IBlockDestructionStoppedEventData</a><span class="tsd-signature-symbol">&gt;</span><span class="tsd-signature-symbol">)</span><span class="tsd-signature-symbol">: </span><span class="tsd-signature-type">void</span></li>
+											</ul>
+											<ul class="tsd-descriptions">
+												<li class="tsd-description">
+													<h4 class="tsd-parameters-title">Parameters</h4>
+													<ul class="tsd-parameters">
+														<li>
+															<h5>eventData: <a href="ieventdata.html" class="tsd-signature-type">IEventData</a><span class="tsd-signature-symbol">&lt;</span><a href="iblockdestructionstoppedeventdata.html" class="tsd-signature-type">IBlockDestructionStoppedEventData</a><span class="tsd-signature-symbol">&gt;</span></h5>
+														</li>
+													</ul>
+													<h4 class="tsd-returns-title">Returns <span class="tsd-signature-type">void</span></h4>
+												</li>
+											</ul>
+										</li>
+									</ul>
+								</li>
+							</ul>
+							<h4 class="tsd-returns-title">Returns <span class="tsd-signature-type">boolean</span>
+								<span class="tsd-signature-symbol"> | </span>
+								<span class="tsd-signature-type">null</span>
+							</h4>
+						</li>
+						<li class="tsd-description">
+							<aside class="tsd-sources">
+								<ul>
+									<li>Defined in minecraft-scripting-types-server/types/server_system_events.generated.d.ts:79</li>
+								</ul>
+							</aside>
+							<div class="tsd-comment tsd-typography">
+								<div class="lead">
+									<p>This event is triggered whenever a player interacts with a block.</p>
+								</div>
+							</div>
+							<h4 class="tsd-parameters-title">Parameters</h4>
+							<ul class="tsd-parameters">
+								<li>
+									<h5>eventIdentifier: <a href="../enums/receivefromminecraftserver.html#blockinteractedwith" class="tsd-signature-type">BlockInteractedWith</a></h5>
+								</li>
+								<li>
+									<h5>callback: <span class="tsd-signature-type">function</span></h5>
+									<ul class="tsd-parameters">
+										<li class="tsd-parameter-siganture">
+											<ul class="tsd-signatures tsd-kind-type-literal tsd-is-not-exported">
+												<li class="tsd-signature tsd-kind-icon"><span class="tsd-signature-symbol">(</span>eventData<span class="tsd-signature-symbol">: </span><a href="ieventdata.html" class="tsd-signature-type">IEventData</a><span class="tsd-signature-symbol">&lt;</span><a href="iblockinteractedwitheventdata.html" class="tsd-signature-type">IBlockInteractedWithEventData</a><span class="tsd-signature-symbol">&gt;</span><span class="tsd-signature-symbol">)</span><span class="tsd-signature-symbol">: </span><span class="tsd-signature-type">void</span></li>
+											</ul>
+											<ul class="tsd-descriptions">
+												<li class="tsd-description">
+													<h4 class="tsd-parameters-title">Parameters</h4>
+													<ul class="tsd-parameters">
+														<li>
+															<h5>eventData: <a href="ieventdata.html" class="tsd-signature-type">IEventData</a><span class="tsd-signature-symbol">&lt;</span><a href="iblockinteractedwitheventdata.html" class="tsd-signature-type">IBlockInteractedWithEventData</a><span class="tsd-signature-symbol">&gt;</span></h5>
+														</li>
+													</ul>
+													<h4 class="tsd-returns-title">Returns <span class="tsd-signature-type">void</span></h4>
+												</li>
+											</ul>
+										</li>
+									</ul>
+								</li>
+							</ul>
+							<h4 class="tsd-returns-title">Returns <span class="tsd-signature-type">boolean</span>
+								<span class="tsd-signature-symbol"> | </span>
+								<span class="tsd-signature-type">null</span>
+							</h4>
+						</li>
+						<li class="tsd-description">
+							<aside class="tsd-sources">
+								<ul>
+									<li>Defined in minecraft-scripting-types-server/types/server_system_events.generated.d.ts:83</li>
+								</ul>
+							</aside>
+							<div class="tsd-comment tsd-typography">
+								<div class="lead">
+									<p>This event is triggered whenever an entity acquires an item.</p>
+								</div>
+							</div>
+							<h4 class="tsd-parameters-title">Parameters</h4>
+							<ul class="tsd-parameters">
+								<li>
+									<h5>eventIdentifier: <a href="../enums/receivefromminecraftserver.html#entityacquireditem" class="tsd-signature-type">EntityAcquiredItem</a></h5>
+								</li>
+								<li>
+									<h5>callback: <span class="tsd-signature-type">function</span></h5>
+									<ul class="tsd-parameters">
+										<li class="tsd-parameter-siganture">
+											<ul class="tsd-signatures tsd-kind-type-literal tsd-is-not-exported">
+												<li class="tsd-signature tsd-kind-icon"><span class="tsd-signature-symbol">(</span>eventData<span class="tsd-signature-symbol">: </span><a href="ieventdata.html" class="tsd-signature-type">IEventData</a><span class="tsd-signature-symbol">&lt;</span><a href="ientityacquireditemeventdata.html" class="tsd-signature-type">IEntityAcquiredItemEventData</a><span class="tsd-signature-symbol">&gt;</span><span class="tsd-signature-symbol">)</span><span class="tsd-signature-symbol">: </span><span class="tsd-signature-type">void</span></li>
+											</ul>
+											<ul class="tsd-descriptions">
+												<li class="tsd-description">
+													<h4 class="tsd-parameters-title">Parameters</h4>
+													<ul class="tsd-parameters">
+														<li>
+															<h5>eventData: <a href="ieventdata.html" class="tsd-signature-type">IEventData</a><span class="tsd-signature-symbol">&lt;</span><a href="ientityacquireditemeventdata.html" class="tsd-signature-type">IEntityAcquiredItemEventData</a><span class="tsd-signature-symbol">&gt;</span></h5>
+														</li>
+													</ul>
+													<h4 class="tsd-returns-title">Returns <span class="tsd-signature-type">void</span></h4>
+												</li>
+											</ul>
+										</li>
+									</ul>
+								</li>
+							</ul>
+							<h4 class="tsd-returns-title">Returns <span class="tsd-signature-type">boolean</span>
+								<span class="tsd-signature-symbol"> | </span>
+								<span class="tsd-signature-type">null</span>
+							</h4>
+						</li>
+						<li class="tsd-description">
+							<aside class="tsd-sources">
+								<ul>
+									<li>Defined in minecraft-scripting-types-server/types/server_system_events.generated.d.ts:87</li>
+								</ul>
+							</aside>
+							<div class="tsd-comment tsd-typography">
+								<div class="lead">
+									<p>This event is triggered whenever an entity changes the item carried in their hand.</p>
+								</div>
+							</div>
+							<h4 class="tsd-parameters-title">Parameters</h4>
+							<ul class="tsd-parameters">
+								<li>
+									<h5>eventIdentifier: <a href="../enums/receivefromminecraftserver.html#entitycarrieditemchanged" class="tsd-signature-type">EntityCarriedItemChanged</a></h5>
+								</li>
+								<li>
+									<h5>callback: <span class="tsd-signature-type">function</span></h5>
+									<ul class="tsd-parameters">
+										<li class="tsd-parameter-siganture">
+											<ul class="tsd-signatures tsd-kind-type-literal tsd-is-not-exported">
+												<li class="tsd-signature tsd-kind-icon"><span class="tsd-signature-symbol">(</span>eventData<span class="tsd-signature-symbol">: </span><a href="ieventdata.html" class="tsd-signature-type">IEventData</a><span class="tsd-signature-symbol">&lt;</span><a href="ientitycarrieditemchangedeventdata.html" class="tsd-signature-type">IEntityCarriedItemChangedEventData</a><span class="tsd-signature-symbol">&gt;</span><span class="tsd-signature-symbol">)</span><span class="tsd-signature-symbol">: </span><span class="tsd-signature-type">void</span></li>
+											</ul>
+											<ul class="tsd-descriptions">
+												<li class="tsd-description">
+													<h4 class="tsd-parameters-title">Parameters</h4>
+													<ul class="tsd-parameters">
+														<li>
+															<h5>eventData: <a href="ieventdata.html" class="tsd-signature-type">IEventData</a><span class="tsd-signature-symbol">&lt;</span><a href="ientitycarrieditemchangedeventdata.html" class="tsd-signature-type">IEntityCarriedItemChangedEventData</a><span class="tsd-signature-symbol">&gt;</span></h5>
+														</li>
+													</ul>
+													<h4 class="tsd-returns-title">Returns <span class="tsd-signature-type">void</span></h4>
+												</li>
+											</ul>
+										</li>
+									</ul>
+								</li>
+							</ul>
+							<h4 class="tsd-returns-title">Returns <span class="tsd-signature-type">boolean</span>
+								<span class="tsd-signature-symbol"> | </span>
+								<span class="tsd-signature-type">null</span>
+							</h4>
+						</li>
+						<li class="tsd-description">
+							<aside class="tsd-sources">
+								<ul>
+									<li>Defined in minecraft-scripting-types-server/types/server_system_events.generated.d.ts:91</li>
+								</ul>
+							</aside>
+							<div class="tsd-comment tsd-typography">
+								<div class="lead">
+									<p>This event is triggered whenever an entity is added to the world.</p>
+								</div>
+							</div>
+							<h4 class="tsd-parameters-title">Parameters</h4>
+							<ul class="tsd-parameters">
+								<li>
+									<h5>eventIdentifier: <a href="../enums/receivefromminecraftserver.html#entitycreated" class="tsd-signature-type">EntityCreated</a></h5>
+								</li>
+								<li>
+									<h5>callback: <span class="tsd-signature-type">function</span></h5>
+									<ul class="tsd-parameters">
+										<li class="tsd-parameter-siganture">
+											<ul class="tsd-signatures tsd-kind-type-literal tsd-is-not-exported">
+												<li class="tsd-signature tsd-kind-icon"><span class="tsd-signature-symbol">(</span>eventData<span class="tsd-signature-symbol">: </span><a href="ieventdata.html" class="tsd-signature-type">IEventData</a><span class="tsd-signature-symbol">&lt;</span><a href="ientitycreatedeventdata.html" class="tsd-signature-type">IEntityCreatedEventData</a><span class="tsd-signature-symbol">&gt;</span><span class="tsd-signature-symbol">)</span><span class="tsd-signature-symbol">: </span><span class="tsd-signature-type">void</span></li>
+											</ul>
+											<ul class="tsd-descriptions">
+												<li class="tsd-description">
+													<h4 class="tsd-parameters-title">Parameters</h4>
+													<ul class="tsd-parameters">
+														<li>
+															<h5>eventData: <a href="ieventdata.html" class="tsd-signature-type">IEventData</a><span class="tsd-signature-symbol">&lt;</span><a href="ientitycreatedeventdata.html" class="tsd-signature-type">IEntityCreatedEventData</a><span class="tsd-signature-symbol">&gt;</span></h5>
+														</li>
+													</ul>
+													<h4 class="tsd-returns-title">Returns <span class="tsd-signature-type">void</span></h4>
+												</li>
+											</ul>
+										</li>
+									</ul>
+								</li>
+							</ul>
+							<h4 class="tsd-returns-title">Returns <span class="tsd-signature-type">boolean</span>
+								<span class="tsd-signature-symbol"> | </span>
+								<span class="tsd-signature-type">null</span>
+							</h4>
+						</li>
+						<li class="tsd-description">
+							<aside class="tsd-sources">
+								<ul>
+									<li>Defined in minecraft-scripting-types-server/types/server_system_events.generated.d.ts:95</li>
+								</ul>
+							</aside>
+							<div class="tsd-comment tsd-typography">
+								<div class="lead">
+									<p>This event is triggered whenever an entity dies. This won&#39;t be triggered when an entity is removed (such as when using destroyEntity).</p>
+								</div>
+							</div>
+							<h4 class="tsd-parameters-title">Parameters</h4>
+							<ul class="tsd-parameters">
+								<li>
+									<h5>eventIdentifier: <a href="../enums/receivefromminecraftserver.html#entitydeath" class="tsd-signature-type">EntityDeath</a></h5>
+								</li>
+								<li>
+									<h5>callback: <span class="tsd-signature-type">function</span></h5>
+									<ul class="tsd-parameters">
+										<li class="tsd-parameter-siganture">
+											<ul class="tsd-signatures tsd-kind-type-literal tsd-is-not-exported">
+												<li class="tsd-signature tsd-kind-icon"><span class="tsd-signature-symbol">(</span>eventData<span class="tsd-signature-symbol">: </span><a href="ieventdata.html" class="tsd-signature-type">IEventData</a><span class="tsd-signature-symbol">&lt;</span><a href="ientitydeatheventdata.html" class="tsd-signature-type">IEntityDeathEventData</a><span class="tsd-signature-symbol">&gt;</span><span class="tsd-signature-symbol">)</span><span class="tsd-signature-symbol">: </span><span class="tsd-signature-type">void</span></li>
+											</ul>
+											<ul class="tsd-descriptions">
+												<li class="tsd-description">
+													<h4 class="tsd-parameters-title">Parameters</h4>
+													<ul class="tsd-parameters">
+														<li>
+															<h5>eventData: <a href="ieventdata.html" class="tsd-signature-type">IEventData</a><span class="tsd-signature-symbol">&lt;</span><a href="ientitydeatheventdata.html" class="tsd-signature-type">IEntityDeathEventData</a><span class="tsd-signature-symbol">&gt;</span></h5>
+														</li>
+													</ul>
+													<h4 class="tsd-returns-title">Returns <span class="tsd-signature-type">void</span></h4>
+												</li>
+											</ul>
+										</li>
+									</ul>
+								</li>
+							</ul>
+							<h4 class="tsd-returns-title">Returns <span class="tsd-signature-type">boolean</span>
+								<span class="tsd-signature-symbol"> | </span>
+								<span class="tsd-signature-type">null</span>
+							</h4>
+						</li>
+						<li class="tsd-description">
+							<aside class="tsd-sources">
+								<ul>
+									<li>Defined in minecraft-scripting-types-server/types/server_system_events.generated.d.ts:99</li>
+								</ul>
+							</aside>
+							<div class="tsd-comment tsd-typography">
+								<div class="lead">
+									<p>This event is triggered whenever an entity drops an item.</p>
+								</div>
+							</div>
+							<h4 class="tsd-parameters-title">Parameters</h4>
+							<ul class="tsd-parameters">
+								<li>
+									<h5>eventIdentifier: <a href="../enums/receivefromminecraftserver.html#entitydroppeditem" class="tsd-signature-type">EntityDroppedItem</a></h5>
+								</li>
+								<li>
+									<h5>callback: <span class="tsd-signature-type">function</span></h5>
+									<ul class="tsd-parameters">
+										<li class="tsd-parameter-siganture">
+											<ul class="tsd-signatures tsd-kind-type-literal tsd-is-not-exported">
+												<li class="tsd-signature tsd-kind-icon"><span class="tsd-signature-symbol">(</span>eventData<span class="tsd-signature-symbol">: </span><a href="ieventdata.html" class="tsd-signature-type">IEventData</a><span class="tsd-signature-symbol">&lt;</span><a href="ientitydroppeditemeventdata.html" class="tsd-signature-type">IEntityDroppedItemEventData</a><span class="tsd-signature-symbol">&gt;</span><span class="tsd-signature-symbol">)</span><span class="tsd-signature-symbol">: </span><span class="tsd-signature-type">void</span></li>
+											</ul>
+											<ul class="tsd-descriptions">
+												<li class="tsd-description">
+													<h4 class="tsd-parameters-title">Parameters</h4>
+													<ul class="tsd-parameters">
+														<li>
+															<h5>eventData: <a href="ieventdata.html" class="tsd-signature-type">IEventData</a><span class="tsd-signature-symbol">&lt;</span><a href="ientitydroppeditemeventdata.html" class="tsd-signature-type">IEntityDroppedItemEventData</a><span class="tsd-signature-symbol">&gt;</span></h5>
+														</li>
+													</ul>
+													<h4 class="tsd-returns-title">Returns <span class="tsd-signature-type">void</span></h4>
+												</li>
+											</ul>
+										</li>
+									</ul>
+								</li>
+							</ul>
+							<h4 class="tsd-returns-title">Returns <span class="tsd-signature-type">boolean</span>
+								<span class="tsd-signature-symbol"> | </span>
+								<span class="tsd-signature-type">null</span>
+							</h4>
+						</li>
+						<li class="tsd-description">
+							<aside class="tsd-sources">
+								<ul>
+									<li>Defined in minecraft-scripting-types-server/types/server_system_events.generated.d.ts:103</li>
+								</ul>
+							</aside>
+							<div class="tsd-comment tsd-typography">
+								<div class="lead">
+									<p>This event is triggered whenever an entity equips an item in their armor slots.</p>
+								</div>
+							</div>
+							<h4 class="tsd-parameters-title">Parameters</h4>
+							<ul class="tsd-parameters">
+								<li>
+									<h5>eventIdentifier: <a href="../enums/receivefromminecraftserver.html#entityequippedarmor" class="tsd-signature-type">EntityEquippedArmor</a></h5>
+								</li>
+								<li>
+									<h5>callback: <span class="tsd-signature-type">function</span></h5>
+									<ul class="tsd-parameters">
+										<li class="tsd-parameter-siganture">
+											<ul class="tsd-signatures tsd-kind-type-literal tsd-is-not-exported">
+												<li class="tsd-signature tsd-kind-icon"><span class="tsd-signature-symbol">(</span>eventData<span class="tsd-signature-symbol">: </span><a href="ieventdata.html" class="tsd-signature-type">IEventData</a><span class="tsd-signature-symbol">&lt;</span><a href="ientityequippedarmoreventdata.html" class="tsd-signature-type">IEntityEquippedArmorEventData</a><span class="tsd-signature-symbol">&gt;</span><span class="tsd-signature-symbol">)</span><span class="tsd-signature-symbol">: </span><span class="tsd-signature-type">void</span></li>
+											</ul>
+											<ul class="tsd-descriptions">
+												<li class="tsd-description">
+													<h4 class="tsd-parameters-title">Parameters</h4>
+													<ul class="tsd-parameters">
+														<li>
+															<h5>eventData: <a href="ieventdata.html" class="tsd-signature-type">IEventData</a><span class="tsd-signature-symbol">&lt;</span><a href="ientityequippedarmoreventdata.html" class="tsd-signature-type">IEntityEquippedArmorEventData</a><span class="tsd-signature-symbol">&gt;</span></h5>
+														</li>
+													</ul>
+													<h4 class="tsd-returns-title">Returns <span class="tsd-signature-type">void</span></h4>
+												</li>
+											</ul>
+										</li>
+									</ul>
+								</li>
+							</ul>
+							<h4 class="tsd-returns-title">Returns <span class="tsd-signature-type">boolean</span>
+								<span class="tsd-signature-symbol"> | </span>
+								<span class="tsd-signature-type">null</span>
+							</h4>
+						</li>
+						<li class="tsd-description">
+							<aside class="tsd-sources">
+								<ul>
+									<li>Defined in minecraft-scripting-types-server/types/server_system_events.generated.d.ts:107</li>
+								</ul>
+							</aside>
+							<div class="tsd-comment tsd-typography">
+								<div class="lead">
+									<p>This event is triggered whenever an entity becomes a rider on another entity.</p>
+								</div>
+							</div>
+							<h4 class="tsd-parameters-title">Parameters</h4>
+							<ul class="tsd-parameters">
+								<li>
+									<h5>eventIdentifier: <a href="../enums/receivefromminecraftserver.html#entitystartriding" class="tsd-signature-type">EntityStartRiding</a></h5>
+								</li>
+								<li>
+									<h5>callback: <span class="tsd-signature-type">function</span></h5>
+									<ul class="tsd-parameters">
+										<li class="tsd-parameter-siganture">
+											<ul class="tsd-signatures tsd-kind-type-literal tsd-is-not-exported">
+												<li class="tsd-signature tsd-kind-icon"><span class="tsd-signature-symbol">(</span>eventData<span class="tsd-signature-symbol">: </span><a href="ieventdata.html" class="tsd-signature-type">IEventData</a><span class="tsd-signature-symbol">&lt;</span><a href="ientitystartridingeventdata.html" class="tsd-signature-type">IEntityStartRidingEventData</a><span class="tsd-signature-symbol">&gt;</span><span class="tsd-signature-symbol">)</span><span class="tsd-signature-symbol">: </span><span class="tsd-signature-type">void</span></li>
+											</ul>
+											<ul class="tsd-descriptions">
+												<li class="tsd-description">
+													<h4 class="tsd-parameters-title">Parameters</h4>
+													<ul class="tsd-parameters">
+														<li>
+															<h5>eventData: <a href="ieventdata.html" class="tsd-signature-type">IEventData</a><span class="tsd-signature-symbol">&lt;</span><a href="ientitystartridingeventdata.html" class="tsd-signature-type">IEntityStartRidingEventData</a><span class="tsd-signature-symbol">&gt;</span></h5>
+														</li>
+													</ul>
+													<h4 class="tsd-returns-title">Returns <span class="tsd-signature-type">void</span></h4>
+												</li>
+											</ul>
+										</li>
+									</ul>
+								</li>
+							</ul>
+							<h4 class="tsd-returns-title">Returns <span class="tsd-signature-type">boolean</span>
+								<span class="tsd-signature-symbol"> | </span>
+								<span class="tsd-signature-type">null</span>
+							</h4>
+						</li>
+						<li class="tsd-description">
+							<aside class="tsd-sources">
+								<ul>
+									<li>Defined in minecraft-scripting-types-server/types/server_system_events.generated.d.ts:111</li>
+								</ul>
+							</aside>
+							<div class="tsd-comment tsd-typography">
+								<div class="lead">
+									<p>This event is triggered whenever an entity stops riding another entity.</p>
+								</div>
+							</div>
+							<h4 class="tsd-parameters-title">Parameters</h4>
+							<ul class="tsd-parameters">
+								<li>
+									<h5>eventIdentifier: <a href="../enums/receivefromminecraftserver.html#entitystopriding" class="tsd-signature-type">EntityStopRiding</a></h5>
+								</li>
+								<li>
+									<h5>callback: <span class="tsd-signature-type">function</span></h5>
+									<ul class="tsd-parameters">
+										<li class="tsd-parameter-siganture">
+											<ul class="tsd-signatures tsd-kind-type-literal tsd-is-not-exported">
+												<li class="tsd-signature tsd-kind-icon"><span class="tsd-signature-symbol">(</span>eventData<span class="tsd-signature-symbol">: </span><a href="ieventdata.html" class="tsd-signature-type">IEventData</a><span class="tsd-signature-symbol">&lt;</span><a href="ientitystopridingeventdata.html" class="tsd-signature-type">IEntityStopRidingEventData</a><span class="tsd-signature-symbol">&gt;</span><span class="tsd-signature-symbol">)</span><span class="tsd-signature-symbol">: </span><span class="tsd-signature-type">void</span></li>
+											</ul>
+											<ul class="tsd-descriptions">
+												<li class="tsd-description">
+													<h4 class="tsd-parameters-title">Parameters</h4>
+													<ul class="tsd-parameters">
+														<li>
+															<h5>eventData: <a href="ieventdata.html" class="tsd-signature-type">IEventData</a><span class="tsd-signature-symbol">&lt;</span><a href="ientitystopridingeventdata.html" class="tsd-signature-type">IEntityStopRidingEventData</a><span class="tsd-signature-symbol">&gt;</span></h5>
+														</li>
+													</ul>
+													<h4 class="tsd-returns-title">Returns <span class="tsd-signature-type">void</span></h4>
+												</li>
+											</ul>
+										</li>
+									</ul>
+								</li>
+							</ul>
+							<h4 class="tsd-returns-title">Returns <span class="tsd-signature-type">boolean</span>
+								<span class="tsd-signature-symbol"> | </span>
+								<span class="tsd-signature-type">null</span>
+							</h4>
+						</li>
+						<li class="tsd-description">
+							<aside class="tsd-sources">
+								<ul>
+									<li>Defined in minecraft-scripting-types-server/types/server_system_events.generated.d.ts:115</li>
+								</ul>
+							</aside>
+							<div class="tsd-comment tsd-typography">
+								<div class="lead">
+									<p>This event is triggered whenever an entity is ticked. This event will not fire when a player is ticked.</p>
+								</div>
+							</div>
+							<h4 class="tsd-parameters-title">Parameters</h4>
+							<ul class="tsd-parameters">
+								<li>
+									<h5>eventIdentifier: <a href="../enums/receivefromminecraftserver.html#entitytick" class="tsd-signature-type">EntityTick</a></h5>
+								</li>
+								<li>
+									<h5>callback: <span class="tsd-signature-type">function</span></h5>
+									<ul class="tsd-parameters">
+										<li class="tsd-parameter-siganture">
+											<ul class="tsd-signatures tsd-kind-type-literal tsd-is-not-exported">
+												<li class="tsd-signature tsd-kind-icon"><span class="tsd-signature-symbol">(</span>eventData<span class="tsd-signature-symbol">: </span><a href="ieventdata.html" class="tsd-signature-type">IEventData</a><span class="tsd-signature-symbol">&lt;</span><a href="ientitytickeventdata.html" class="tsd-signature-type">IEntityTickEventData</a><span class="tsd-signature-symbol">&gt;</span><span class="tsd-signature-symbol">)</span><span class="tsd-signature-symbol">: </span><span class="tsd-signature-type">void</span></li>
+											</ul>
+											<ul class="tsd-descriptions">
+												<li class="tsd-description">
+													<h4 class="tsd-parameters-title">Parameters</h4>
+													<ul class="tsd-parameters">
+														<li>
+															<h5>eventData: <a href="ieventdata.html" class="tsd-signature-type">IEventData</a><span class="tsd-signature-symbol">&lt;</span><a href="ientitytickeventdata.html" class="tsd-signature-type">IEntityTickEventData</a><span class="tsd-signature-symbol">&gt;</span></h5>
+														</li>
+													</ul>
+													<h4 class="tsd-returns-title">Returns <span class="tsd-signature-type">void</span></h4>
+												</li>
+											</ul>
+										</li>
+									</ul>
+								</li>
+							</ul>
+							<h4 class="tsd-returns-title">Returns <span class="tsd-signature-type">boolean</span>
+								<span class="tsd-signature-symbol"> | </span>
+								<span class="tsd-signature-type">null</span>
+							</h4>
+						</li>
+						<li class="tsd-description">
+							<aside class="tsd-sources">
+								<ul>
+									<li>Defined in minecraft-scripting-types-server/types/server_system_events.generated.d.ts:119</li>
+								</ul>
+							</aside>
+							<div class="tsd-comment tsd-typography">
+								<div class="lead">
+									<p>This event is triggered whenever an entity uses an item.</p>
+								</div>
+							</div>
+							<h4 class="tsd-parameters-title">Parameters</h4>
+							<ul class="tsd-parameters">
+								<li>
+									<h5>eventIdentifier: <a href="../enums/receivefromminecraftserver.html#entityuseitem" class="tsd-signature-type">EntityUseItem</a></h5>
+								</li>
+								<li>
+									<h5>callback: <span class="tsd-signature-type">function</span></h5>
+									<ul class="tsd-parameters">
+										<li class="tsd-parameter-siganture">
+											<ul class="tsd-signatures tsd-kind-type-literal tsd-is-not-exported">
+												<li class="tsd-signature tsd-kind-icon"><span class="tsd-signature-symbol">(</span>eventData<span class="tsd-signature-symbol">: </span><a href="ieventdata.html" class="tsd-signature-type">IEventData</a><span class="tsd-signature-symbol">&lt;</span><a href="ientityuseitemeventdata.html" class="tsd-signature-type">IEntityUseItemEventData</a><span class="tsd-signature-symbol">&gt;</span><span class="tsd-signature-symbol">)</span><span class="tsd-signature-symbol">: </span><span class="tsd-signature-type">void</span></li>
+											</ul>
+											<ul class="tsd-descriptions">
+												<li class="tsd-description">
+													<h4 class="tsd-parameters-title">Parameters</h4>
+													<ul class="tsd-parameters">
+														<li>
+															<h5>eventData: <a href="ieventdata.html" class="tsd-signature-type">IEventData</a><span class="tsd-signature-symbol">&lt;</span><a href="ientityuseitemeventdata.html" class="tsd-signature-type">IEntityUseItemEventData</a><span class="tsd-signature-symbol">&gt;</span></h5>
+														</li>
+													</ul>
+													<h4 class="tsd-returns-title">Returns <span class="tsd-signature-type">void</span></h4>
+												</li>
+											</ul>
+										</li>
+									</ul>
+								</li>
+							</ul>
+							<h4 class="tsd-returns-title">Returns <span class="tsd-signature-type">boolean</span>
+								<span class="tsd-signature-symbol"> | </span>
+								<span class="tsd-signature-type">null</span>
+							</h4>
+						</li>
+						<li class="tsd-description">
+							<aside class="tsd-sources">
+								<ul>
+									<li>Defined in minecraft-scripting-types-server/types/server_system_events.generated.d.ts:123</li>
+								</ul>
+							</aside>
+							<div class="tsd-comment tsd-typography">
+								<div class="lead">
+									<p>This event is triggered whenever a piston moves a block.</p>
+								</div>
+							</div>
+							<h4 class="tsd-parameters-title">Parameters</h4>
+							<ul class="tsd-parameters">
+								<li>
+									<h5>eventIdentifier: <a href="../enums/receivefromminecraftserver.html#pistonmovedblock" class="tsd-signature-type">PistonMovedBlock</a></h5>
+								</li>
+								<li>
+									<h5>callback: <span class="tsd-signature-type">function</span></h5>
+									<ul class="tsd-parameters">
+										<li class="tsd-parameter-siganture">
+											<ul class="tsd-signatures tsd-kind-type-literal tsd-is-not-exported">
+												<li class="tsd-signature tsd-kind-icon"><span class="tsd-signature-symbol">(</span>eventData<span class="tsd-signature-symbol">: </span><a href="ieventdata.html" class="tsd-signature-type">IEventData</a><span class="tsd-signature-symbol">&lt;</span><a href="ipistonmovedblockeventdata.html" class="tsd-signature-type">IPistonMovedBlockEventData</a><span class="tsd-signature-symbol">&gt;</span><span class="tsd-signature-symbol">)</span><span class="tsd-signature-symbol">: </span><span class="tsd-signature-type">void</span></li>
+											</ul>
+											<ul class="tsd-descriptions">
+												<li class="tsd-description">
+													<h4 class="tsd-parameters-title">Parameters</h4>
+													<ul class="tsd-parameters">
+														<li>
+															<h5>eventData: <a href="ieventdata.html" class="tsd-signature-type">IEventData</a><span class="tsd-signature-symbol">&lt;</span><a href="ipistonmovedblockeventdata.html" class="tsd-signature-type">IPistonMovedBlockEventData</a><span class="tsd-signature-symbol">&gt;</span></h5>
+														</li>
+													</ul>
+													<h4 class="tsd-returns-title">Returns <span class="tsd-signature-type">void</span></h4>
+												</li>
+											</ul>
+										</li>
+									</ul>
+								</li>
+							</ul>
+							<h4 class="tsd-returns-title">Returns <span class="tsd-signature-type">boolean</span>
+								<span class="tsd-signature-symbol"> | </span>
+								<span class="tsd-signature-type">null</span>
+							</h4>
+						</li>
+						<li class="tsd-description">
+							<aside class="tsd-sources">
+								<ul>
+									<li>Defined in minecraft-scripting-types-server/types/server_system_events.generated.d.ts:127</li>
+								</ul>
+							</aside>
+							<div class="tsd-comment tsd-typography">
+								<div class="lead">
+									<p>This event is used to play a sound effect. Currently, sounds can only be played at a fixed position in the world. Global sounds and sounds played by an entity will be supported in a later update.</p>
+								</div>
+							</div>
+							<h4 class="tsd-parameters-title">Parameters</h4>
+							<ul class="tsd-parameters">
+								<li>
+									<h5>eventIdentifier: <a href="../enums/receivefromminecraftserver.html#playsound" class="tsd-signature-type">PlaySound</a></h5>
+								</li>
+								<li>
+									<h5>callback: <span class="tsd-signature-type">function</span></h5>
+									<ul class="tsd-parameters">
+										<li class="tsd-parameter-siganture">
+											<ul class="tsd-signatures tsd-kind-type-literal tsd-is-not-exported">
+												<li class="tsd-signature tsd-kind-icon"><span class="tsd-signature-symbol">(</span>eventData<span class="tsd-signature-symbol">: </span><a href="ieventdata.html" class="tsd-signature-type">IEventData</a><span class="tsd-signature-symbol">&lt;</span><a href="iplaysoundeventdata.html" class="tsd-signature-type">IPlaySoundEventData</a><span class="tsd-signature-symbol">&gt;</span><span class="tsd-signature-symbol">)</span><span class="tsd-signature-symbol">: </span><span class="tsd-signature-type">void</span></li>
+											</ul>
+											<ul class="tsd-descriptions">
+												<li class="tsd-description">
+													<h4 class="tsd-parameters-title">Parameters</h4>
+													<ul class="tsd-parameters">
+														<li>
+															<h5>eventData: <a href="ieventdata.html" class="tsd-signature-type">IEventData</a><span class="tsd-signature-symbol">&lt;</span><a href="iplaysoundeventdata.html" class="tsd-signature-type">IPlaySoundEventData</a><span class="tsd-signature-symbol">&gt;</span></h5>
+														</li>
+													</ul>
+													<h4 class="tsd-returns-title">Returns <span class="tsd-signature-type">void</span></h4>
+												</li>
+											</ul>
+										</li>
+									</ul>
+								</li>
+							</ul>
+							<h4 class="tsd-returns-title">Returns <span class="tsd-signature-type">boolean</span>
+								<span class="tsd-signature-symbol"> | </span>
+								<span class="tsd-signature-type">null</span>
+							</h4>
+						</li>
+						<li class="tsd-description">
+							<aside class="tsd-sources">
+								<ul>
+									<li>Defined in minecraft-scripting-types-server/types/server_system_events.generated.d.ts:131</li>
+								</ul>
+							</aside>
+							<div class="tsd-comment tsd-typography">
+								<div class="lead">
+									<p>This event is triggered whenever a player attacks an entity.</p>
+								</div>
+							</div>
+							<h4 class="tsd-parameters-title">Parameters</h4>
+							<ul class="tsd-parameters">
+								<li>
+									<h5>eventIdentifier: <a href="../enums/receivefromminecraftserver.html#playerattackedentity" class="tsd-signature-type">PlayerAttackedEntity</a></h5>
+								</li>
+								<li>
+									<h5>callback: <span class="tsd-signature-type">function</span></h5>
+									<ul class="tsd-parameters">
+										<li class="tsd-parameter-siganture">
+											<ul class="tsd-signatures tsd-kind-type-literal tsd-is-not-exported">
+												<li class="tsd-signature tsd-kind-icon"><span class="tsd-signature-symbol">(</span>eventData<span class="tsd-signature-symbol">: </span><a href="ieventdata.html" class="tsd-signature-type">IEventData</a><span class="tsd-signature-symbol">&lt;</span><a href="iplayerattackedentityeventdata.html" class="tsd-signature-type">IPlayerAttackedEntityEventData</a><span class="tsd-signature-symbol">&gt;</span><span class="tsd-signature-symbol">)</span><span class="tsd-signature-symbol">: </span><span class="tsd-signature-type">void</span></li>
+											</ul>
+											<ul class="tsd-descriptions">
+												<li class="tsd-description">
+													<h4 class="tsd-parameters-title">Parameters</h4>
+													<ul class="tsd-parameters">
+														<li>
+															<h5>eventData: <a href="ieventdata.html" class="tsd-signature-type">IEventData</a><span class="tsd-signature-symbol">&lt;</span><a href="iplayerattackedentityeventdata.html" class="tsd-signature-type">IPlayerAttackedEntityEventData</a><span class="tsd-signature-symbol">&gt;</span></h5>
+														</li>
+													</ul>
+													<h4 class="tsd-returns-title">Returns <span class="tsd-signature-type">void</span></h4>
+												</li>
+											</ul>
+										</li>
+									</ul>
+								</li>
+							</ul>
+							<h4 class="tsd-returns-title">Returns <span class="tsd-signature-type">boolean</span>
+								<span class="tsd-signature-symbol"> | </span>
+								<span class="tsd-signature-type">null</span>
+							</h4>
+						</li>
+						<li class="tsd-description">
+							<aside class="tsd-sources">
+								<ul>
+									<li>Defined in minecraft-scripting-types-server/types/server_system_events.generated.d.ts:135</li>
+								</ul>
+							</aside>
+							<div class="tsd-comment tsd-typography">
+								<div class="lead">
+									<p>This event is triggered whenever a player destroys a block.</p>
+								</div>
+							</div>
+							<h4 class="tsd-parameters-title">Parameters</h4>
+							<ul class="tsd-parameters">
+								<li>
+									<h5>eventIdentifier: <a href="../enums/receivefromminecraftserver.html#playerdestroyedblock" class="tsd-signature-type">PlayerDestroyedBlock</a></h5>
+								</li>
+								<li>
+									<h5>callback: <span class="tsd-signature-type">function</span></h5>
+									<ul class="tsd-parameters">
+										<li class="tsd-parameter-siganture">
+											<ul class="tsd-signatures tsd-kind-type-literal tsd-is-not-exported">
+												<li class="tsd-signature tsd-kind-icon"><span class="tsd-signature-symbol">(</span>eventData<span class="tsd-signature-symbol">: </span><a href="ieventdata.html" class="tsd-signature-type">IEventData</a><span class="tsd-signature-symbol">&lt;</span><a href="iplayerdestroyedblockeventdata.html" class="tsd-signature-type">IPlayerDestroyedBlockEventData</a><span class="tsd-signature-symbol">&gt;</span><span class="tsd-signature-symbol">)</span><span class="tsd-signature-symbol">: </span><span class="tsd-signature-type">void</span></li>
+											</ul>
+											<ul class="tsd-descriptions">
+												<li class="tsd-description">
+													<h4 class="tsd-parameters-title">Parameters</h4>
+													<ul class="tsd-parameters">
+														<li>
+															<h5>eventData: <a href="ieventdata.html" class="tsd-signature-type">IEventData</a><span class="tsd-signature-symbol">&lt;</span><a href="iplayerdestroyedblockeventdata.html" class="tsd-signature-type">IPlayerDestroyedBlockEventData</a><span class="tsd-signature-symbol">&gt;</span></h5>
+														</li>
+													</ul>
+													<h4 class="tsd-returns-title">Returns <span class="tsd-signature-type">void</span></h4>
+												</li>
+											</ul>
+										</li>
+									</ul>
+								</li>
+							</ul>
+							<h4 class="tsd-returns-title">Returns <span class="tsd-signature-type">boolean</span>
+								<span class="tsd-signature-symbol"> | </span>
+								<span class="tsd-signature-type">null</span>
+							</h4>
+						</li>
+						<li class="tsd-description">
+							<aside class="tsd-sources">
+								<ul>
+									<li>Defined in minecraft-scripting-types-server/types/server_system_events.generated.d.ts:139</li>
+								</ul>
+							</aside>
+							<div class="tsd-comment tsd-typography">
+								<div class="lead">
+									<p>This event is triggered whenever a player places a block.</p>
+								</div>
+							</div>
+							<h4 class="tsd-parameters-title">Parameters</h4>
+							<ul class="tsd-parameters">
+								<li>
+									<h5>eventIdentifier: <a href="../enums/receivefromminecraftserver.html#playerplacedblock" class="tsd-signature-type">PlayerPlacedBlock</a></h5>
+								</li>
+								<li>
+									<h5>callback: <span class="tsd-signature-type">function</span></h5>
+									<ul class="tsd-parameters">
+										<li class="tsd-parameter-siganture">
+											<ul class="tsd-signatures tsd-kind-type-literal tsd-is-not-exported">
+												<li class="tsd-signature tsd-kind-icon"><span class="tsd-signature-symbol">(</span>eventData<span class="tsd-signature-symbol">: </span><a href="ieventdata.html" class="tsd-signature-type">IEventData</a><span class="tsd-signature-symbol">&lt;</span><a href="iplayerplacedblockeventdata.html" class="tsd-signature-type">IPlayerPlacedBlockEventData</a><span class="tsd-signature-symbol">&gt;</span><span class="tsd-signature-symbol">)</span><span class="tsd-signature-symbol">: </span><span class="tsd-signature-type">void</span></li>
+											</ul>
+											<ul class="tsd-descriptions">
+												<li class="tsd-description">
+													<h4 class="tsd-parameters-title">Parameters</h4>
+													<ul class="tsd-parameters">
+														<li>
+															<h5>eventData: <a href="ieventdata.html" class="tsd-signature-type">IEventData</a><span class="tsd-signature-symbol">&lt;</span><a href="iplayerplacedblockeventdata.html" class="tsd-signature-type">IPlayerPlacedBlockEventData</a><span class="tsd-signature-symbol">&gt;</span></h5>
+														</li>
+													</ul>
+													<h4 class="tsd-returns-title">Returns <span class="tsd-signature-type">void</span></h4>
+												</li>
+											</ul>
+										</li>
+									</ul>
+								</li>
+							</ul>
+							<h4 class="tsd-returns-title">Returns <span class="tsd-signature-type">boolean</span>
+								<span class="tsd-signature-symbol"> | </span>
+								<span class="tsd-signature-type">null</span>
+							</h4>
+						</li>
+						<li class="tsd-description">
+							<aside class="tsd-sources">
+								<ul>
+									<li>Defined in minecraft-scripting-types-server/types/server_system_events.generated.d.ts:143</li>
+								</ul>
+							</aside>
+							<div class="tsd-comment tsd-typography">
+								<div class="lead">
+									<p>This event is triggered whenever the weather changes. It contains information about the weather it is changing to.</p>
+								</div>
+							</div>
+							<h4 class="tsd-parameters-title">Parameters</h4>
+							<ul class="tsd-parameters">
+								<li>
+									<h5>eventIdentifier: <a href="../enums/receivefromminecraftserver.html#weatherchanged" class="tsd-signature-type">WeatherChanged</a></h5>
+								</li>
+								<li>
+									<h5>callback: <span class="tsd-signature-type">function</span></h5>
+									<ul class="tsd-parameters">
+										<li class="tsd-parameter-siganture">
+											<ul class="tsd-signatures tsd-kind-type-literal tsd-is-not-exported">
+												<li class="tsd-signature tsd-kind-icon"><span class="tsd-signature-symbol">(</span>eventData<span class="tsd-signature-symbol">: </span><a href="ieventdata.html" class="tsd-signature-type">IEventData</a><span class="tsd-signature-symbol">&lt;</span><a href="iweatherchangedeventdata.html" class="tsd-signature-type">IWeatherChangedEventData</a><span class="tsd-signature-symbol">&gt;</span><span class="tsd-signature-symbol">)</span><span class="tsd-signature-symbol">: </span><span class="tsd-signature-type">void</span></li>
+											</ul>
+											<ul class="tsd-descriptions">
+												<li class="tsd-description">
+													<h4 class="tsd-parameters-title">Parameters</h4>
+													<ul class="tsd-parameters">
+														<li>
+															<h5>eventData: <a href="ieventdata.html" class="tsd-signature-type">IEventData</a><span class="tsd-signature-symbol">&lt;</span><a href="iweatherchangedeventdata.html" class="tsd-signature-type">IWeatherChangedEventData</a><span class="tsd-signature-symbol">&gt;</span></h5>
+														</li>
+													</ul>
+													<h4 class="tsd-returns-title">Returns <span class="tsd-signature-type">void</span></h4>
+												</li>
+											</ul>
+										</li>
+									</ul>
+								</li>
+							</ul>
+							<h4 class="tsd-returns-title">Returns <span class="tsd-signature-type">boolean</span>
+								<span class="tsd-signature-symbol"> | </span>
+								<span class="tsd-signature-type">null</span>
+							</h4>
+						</li>
+						<li class="tsd-description">
+							<aside class="tsd-sources">
+								<ul>
+									<li>Defined in minecraft-scripting-types-server/types/server_system_events.generated.d.ts:177</li>
+								</ul>
+							</aside>
+							<div class="tsd-comment tsd-typography">
+								<div class="lead">
+									<p>Allows you to register a JavaScript object that gets called whenever the specified event is broadcast. The event can either be a built-in event or an event specified in script.</p>
+								</div>
+							</div>
+							<h4 class="tsd-type-parameters-title">Type parameters</h4>
+							<ul class="tsd-type-parameters">
+								<li>
+									<h4>TEventDataType</h4>
+								</li>
+							</ul>
+							<h4 class="tsd-parameters-title">Parameters</h4>
+							<ul class="tsd-parameters">
+								<li>
+									<h5>eventIdentifier: <span class="tsd-signature-type">string</span></h5>
+									<div class="tsd-comment tsd-typography">
+										<p>This is the name of the event to which we want to react. Can be the identifier of a built-in event or a custom one from script</p>
+									</div>
+								</li>
+								<li>
+									<h5>callback: <span class="tsd-signature-type">function</span></h5>
+									<ul class="tsd-parameters">
+										<li class="tsd-parameter-siganture">
+											<ul class="tsd-signatures tsd-kind-type-literal tsd-is-not-exported">
+												<li class="tsd-signature tsd-kind-icon"><span class="tsd-signature-symbol">(</span>eventData<span class="tsd-signature-symbol">: </span><a href="ieventdata.html" class="tsd-signature-type">IEventData</a><span class="tsd-signature-symbol">&lt;</span><span class="tsd-signature-type">TEventDataType</span><span class="tsd-signature-symbol">&gt;</span><span class="tsd-signature-symbol">)</span><span class="tsd-signature-symbol">: </span><span class="tsd-signature-type">void</span></li>
+											</ul>
+											<ul class="tsd-descriptions">
+												<li class="tsd-description">
+													<h4 class="tsd-parameters-title">Parameters</h4>
+													<ul class="tsd-parameters">
+														<li>
+															<h5>eventData: <a href="ieventdata.html" class="tsd-signature-type">IEventData</a><span class="tsd-signature-symbol">&lt;</span><span class="tsd-signature-type">TEventDataType</span><span class="tsd-signature-symbol">&gt;</span></h5>
+														</li>
+													</ul>
+													<h4 class="tsd-returns-title">Returns <span class="tsd-signature-type">void</span></h4>
+												</li>
+											</ul>
+										</li>
+									</ul>
+								</li>
+							</ul>
+							<h4 class="tsd-returns-title">Returns <span class="tsd-signature-type">boolean</span>
+								<span class="tsd-signature-symbol"> | </span>
+								<span class="tsd-signature-type">null</span>
+							</h4>
+						</li>
+					</ul>
+				</section>
+				<section class="tsd-panel tsd-member tsd-kind-method tsd-parent-kind-interface tsd-has-type-parameter tsd-is-external tsd-is-not-exported">
+					<a name="registereventdata" class="tsd-anchor"></a>
+					<h3>register<wbr>Event<wbr>Data</h3>
+					<ul class="tsd-signatures tsd-kind-method tsd-parent-kind-interface tsd-has-type-parameter tsd-is-external tsd-is-not-exported">
+						<li class="tsd-signature tsd-kind-icon">register<wbr>Event<wbr>Data&lt;TEventDataType&gt;<span class="tsd-signature-symbol">(</span>eventIdentifier<span class="tsd-signature-symbol">: </span><span class="tsd-signature-type">string</span>, eventData<span class="tsd-signature-symbol">: </span><span class="tsd-signature-type">TEventDataType</span><span class="tsd-signature-symbol">)</span><span class="tsd-signature-symbol">: </span><span class="tsd-signature-type">true</span><span class="tsd-signature-symbol"> | </span><span class="tsd-signature-type">null</span></li>
+					</ul>
+					<ul class="tsd-descriptions">
+						<li class="tsd-description">
+							<aside class="tsd-sources">
+								<ul>
+									<li>Defined in minecraft-scripting-types-server/types/server_system_events.generated.d.ts:155</li>
+								</ul>
+							</aside>
+							<div class="tsd-comment tsd-typography">
+								<div class="lead">
+									<p>Registers the Event to the script engine. This allows you to create Event Data by calling createEventData and have it initialized with the correct default data and fields. Only custom events need to be registered.</p>
+								</div>
+							</div>
+							<h4 class="tsd-type-parameters-title">Type parameters</h4>
+							<ul class="tsd-type-parameters">
+								<li>
+									<h4>TEventDataType</h4>
+								</li>
+							</ul>
+							<h4 class="tsd-parameters-title">Parameters</h4>
+							<ul class="tsd-parameters">
+								<li>
+									<h5>eventIdentifier: <span class="tsd-signature-type">string</span></h5>
+									<div class="tsd-comment tsd-typography">
+										<p>This is the identifier of the custom event we are registering. The namespace is required and can&#39;t be set to minecraft.</p>
+									</div>
+								</li>
+								<li>
+									<h5>eventData: <span class="tsd-signature-type">TEventDataType</span></h5>
+									<div class="tsd-comment tsd-typography">
+										<p>The JavaScript object with the correct fields and default values for the event</p>
+									</div>
+								</li>
+							</ul>
+							<h4 class="tsd-returns-title">Returns <span class="tsd-signature-type">true</span>
+								<span class="tsd-signature-symbol"> | </span>
+								<span class="tsd-signature-type">null</span>
+							</h4>
+						</li>
+					</ul>
+				</section>
+			</section>
+		</div>
+		<div class="col-4 col-menu menu-sticky-wrap menu-highlight">
+			<nav class="tsd-navigation primary">
+				<ul>
+					<li class="globals  ">
+						<a href="../globals.html"><em>Globals</em></a>
+					</li>
+				</ul>
+			</nav>
+			<nav class="tsd-navigation secondary menu-sticky">
+				<ul class="before-current">
+				</ul>
+				<ul class="current">
+					<li class="current tsd-kind-interface tsd-is-external tsd-is-not-exported">
+						<a href="ivanillaserversystembase.html" class="tsd-kind-icon">IVanilla<wbr>Server<wbr>System<wbr>Base</a>
+						<ul>
+							<li class=" tsd-kind-method tsd-parent-kind-interface tsd-has-type-parameter tsd-is-external tsd-is-not-exported">
+								<a href="ivanillaserversystembase.html#broadcastevent" class="tsd-kind-icon">broadcast<wbr>Event</a>
+							</li>
+							<li class=" tsd-kind-method tsd-parent-kind-interface tsd-has-type-parameter tsd-is-external tsd-is-not-exported">
+								<a href="ivanillaserversystembase.html#createcomponent" class="tsd-kind-icon">create<wbr>Component</a>
+							</li>
+							<li class=" tsd-kind-method tsd-parent-kind-interface tsd-has-type-parameter tsd-is-external tsd-is-not-exported">
+								<a href="ivanillaserversystembase.html#createeventdata" class="tsd-kind-icon">create<wbr>Event<wbr>Data</a>
+							</li>
+							<li class=" tsd-kind-method tsd-parent-kind-interface tsd-has-type-parameter tsd-is-external tsd-is-not-exported">
+								<a href="ivanillaserversystembase.html#getcomponent" class="tsd-kind-icon">get<wbr>Component</a>
+							</li>
+							<li class=" tsd-kind-method tsd-parent-kind-interface tsd-has-type-parameter tsd-is-external tsd-is-not-exported">
+								<a href="ivanillaserversystembase.html#listenforevent" class="tsd-kind-icon">listen<wbr>For<wbr>Event</a>
+							</li>
+							<li class=" tsd-kind-method tsd-parent-kind-interface tsd-has-type-parameter tsd-is-external tsd-is-not-exported">
+								<a href="ivanillaserversystembase.html#registereventdata" class="tsd-kind-icon">register<wbr>Event<wbr>Data</a>
+							</li>
+						</ul>
+					</li>
+				</ul>
+				<ul class="after-current">
+				</ul>
+			</nav>
+		</div>
+	</div>
+</div>
+<footer class="with-border-bottom">
+	<div class="container">
+		<h2>Legend</h2>
+		<div class="tsd-legend-group">
+			<ul class="tsd-legend">
+				<li class="tsd-kind-module"><span class="tsd-kind-icon">Module</span></li>
+				<li class="tsd-kind-object-literal"><span class="tsd-kind-icon">Object literal</span></li>
+				<li class="tsd-kind-variable"><span class="tsd-kind-icon">Variable</span></li>
+				<li class="tsd-kind-function"><span class="tsd-kind-icon">Function</span></li>
+				<li class="tsd-kind-function tsd-has-type-parameter"><span class="tsd-kind-icon">Function with type parameter</span></li>
+				<li class="tsd-kind-index-signature"><span class="tsd-kind-icon">Index signature</span></li>
+				<li class="tsd-kind-type-alias"><span class="tsd-kind-icon">Type alias</span></li>
+				<li class="tsd-kind-type-alias tsd-has-type-parameter"><span class="tsd-kind-icon">Type alias with type parameter</span></li>
+			</ul>
+			<ul class="tsd-legend">
+				<li class="tsd-kind-enum"><span class="tsd-kind-icon">Enumeration</span></li>
+				<li class="tsd-kind-enum-member"><span class="tsd-kind-icon">Enumeration member</span></li>
+				<li class="tsd-kind-property tsd-parent-kind-enum"><span class="tsd-kind-icon">Property</span></li>
+				<li class="tsd-kind-method tsd-parent-kind-enum"><span class="tsd-kind-icon">Method</span></li>
+			</ul>
+			<ul class="tsd-legend">
+				<li class="tsd-kind-interface"><span class="tsd-kind-icon">Interface</span></li>
+				<li class="tsd-kind-interface tsd-has-type-parameter"><span class="tsd-kind-icon">Interface with type parameter</span></li>
+				<li class="tsd-kind-constructor tsd-parent-kind-interface"><span class="tsd-kind-icon">Constructor</span></li>
+				<li class="tsd-kind-property tsd-parent-kind-interface"><span class="tsd-kind-icon">Property</span></li>
+				<li class="tsd-kind-method tsd-parent-kind-interface"><span class="tsd-kind-icon">Method</span></li>
+				<li class="tsd-kind-index-signature tsd-parent-kind-interface"><span class="tsd-kind-icon">Index signature</span></li>
+			</ul>
+			<ul class="tsd-legend">
+				<li class="tsd-kind-class"><span class="tsd-kind-icon">Class</span></li>
+				<li class="tsd-kind-class tsd-has-type-parameter"><span class="tsd-kind-icon">Class with type parameter</span></li>
+				<li class="tsd-kind-constructor tsd-parent-kind-class"><span class="tsd-kind-icon">Constructor</span></li>
+				<li class="tsd-kind-property tsd-parent-kind-class"><span class="tsd-kind-icon">Property</span></li>
+				<li class="tsd-kind-method tsd-parent-kind-class"><span class="tsd-kind-icon">Method</span></li>
+				<li class="tsd-kind-accessor tsd-parent-kind-class"><span class="tsd-kind-icon">Accessor</span></li>
+				<li class="tsd-kind-index-signature tsd-parent-kind-class"><span class="tsd-kind-icon">Index signature</span></li>
+			</ul>
+			<ul class="tsd-legend">
+				<li class="tsd-kind-constructor tsd-parent-kind-class tsd-is-inherited"><span class="tsd-kind-icon">Inherited constructor</span></li>
+				<li class="tsd-kind-property tsd-parent-kind-class tsd-is-inherited"><span class="tsd-kind-icon">Inherited property</span></li>
+				<li class="tsd-kind-method tsd-parent-kind-class tsd-is-inherited"><span class="tsd-kind-icon">Inherited method</span></li>
+				<li class="tsd-kind-accessor tsd-parent-kind-class tsd-is-inherited"><span class="tsd-kind-icon">Inherited accessor</span></li>
+			</ul>
+			<ul class="tsd-legend">
+				<li class="tsd-kind-property tsd-parent-kind-class tsd-is-protected"><span class="tsd-kind-icon">Protected property</span></li>
+				<li class="tsd-kind-method tsd-parent-kind-class tsd-is-protected"><span class="tsd-kind-icon">Protected method</span></li>
+				<li class="tsd-kind-accessor tsd-parent-kind-class tsd-is-protected"><span class="tsd-kind-icon">Protected accessor</span></li>
+			</ul>
+			<ul class="tsd-legend">
+				<li class="tsd-kind-property tsd-parent-kind-class tsd-is-private"><span class="tsd-kind-icon">Private property</span></li>
+				<li class="tsd-kind-method tsd-parent-kind-class tsd-is-private"><span class="tsd-kind-icon">Private method</span></li>
+				<li class="tsd-kind-accessor tsd-parent-kind-class tsd-is-private"><span class="tsd-kind-icon">Private accessor</span></li>
+			</ul>
+			<ul class="tsd-legend">
+				<li class="tsd-kind-property tsd-parent-kind-class tsd-is-static"><span class="tsd-kind-icon">Static property</span></li>
+				<li class="tsd-kind-call-signature tsd-parent-kind-class tsd-is-static"><span class="tsd-kind-icon">Static method</span></li>
+			</ul>
+		</div>
+	</div>
+</footer>
+<div class="container tsd-generator">
+	<p>Generated using <a href="https://typedoc.org/" target="_blank">TypeDoc</a></p>
+</div>
+<div class="overlay"></div>
+<script src="../assets/js/main.js"></script>
+<script>if (location.protocol == 'file:') document.write('<script src="../assets/js/search.js"><' + '/script>');</script>
+</body>
+</html>
