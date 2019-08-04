@@ -1,3 +1,3 @@
 # Minecraft Bedrock Scripting API
 
-Documentation for the Minecraft Bedrock Scripting API, updated daily.
+Automatically generated documentation for the Minecraft Bedrock Scripting API from [minecraft-addon-tools/minecraft-scripting-types](https://github.com/minecraft-addon-tools/minecraft-scripting-types), updated daily.
