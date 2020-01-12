@@ -8,6 +8,6 @@
     "dependencies": {
         "minecraft-scripting-types-client": "*",
         "minecraft-scripting-types-server": "*",
-        "typedoc": "^0.15.7"
+        "typedoc": "^0.16.1"
     }
 }
